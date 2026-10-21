@@ -32,10 +32,11 @@ See [dataset definitions](datasets.md), [pipeline commands and schema](data-pipe
 - Extend CI with a PostgreSQL-backed browser job, source-derived fixture seed, actual API/Vite startup, and desktop/mobile Chromium checks. Include browser configuration and test code in TypeScript checking.
 - Phase 4 analytics and ML remain outside this release. See [Phase 3 verification](phase-3-verification.md) and [globe setup](phase-3-preview.md).
 
-## Phase 4 — analytics API foundation
+## Phase 4 — interactive migration analytics
 
 - Add `/v1/analytics` contracts and a separate PostgreSQL analytics service using the existing read-only transaction dependency. Preserve all Phase 3 endpoints and frontend files.
 - Validate dataset/mode/measure/reporting-period combinations before aggregation. Compare only compatible ACS releases for trends; never pool stocks, ACS, and IRS. Include unanchored observations in analytics and report coverage separately from the globe's route limit.
 - Expose bounded rankings, corridor results, geography comparisons, trends, magnitude distributions, complete ACS net estimates, and exact-year country economic comparisons. Keep partial sums explicitly labeled and missing values nullable.
 - Export complete filtered result sets with source and measurement provenance, with a 5,000-row cap and explicit oversized-export rejection. Do not silently export only the displayed page.
-- Keep the analytics frontend pending owner approval of the proposed additive drawer/bottom-sheet layout. No Phase 4 visual changes have been made at this checkpoint. See [analytics contracts](phase-4-analytics.md) and [full-data SQL verification](phase-4-database-verification.json).
+- Implement the owner-approved, closed-by-default analytics drawer and mobile bottom sheet as additive components with scoped CSS and a lazy-loaded Recharts bundle. Keep existing navigation, renderer, imagery, typography, and animations unchanged. Share source/period/geographic state with the globe; reset comparison state on mode/source/measure changes. Preserve exact-year joins and missingness in charts, tooltips, and accessible tables.
+- Extend frontend interaction and real desktop/mobile browser tests without adding synthetic migration data. Existing CI jobs cover the new API, UI, and SVG/export interactions. See [analytics contracts](phase-4-analytics.md), [full-data SQL verification](phase-4-database-verification.json), and [Phase 4 verification](phase-4-verification.md).

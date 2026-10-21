@@ -45,17 +45,17 @@ curl --get http://127.0.0.1:8000/v1/analytics/trends \
 
 Sources, licensing, coverage, acquisition constraints, and raw-data reproducibility remain documented in [datasets](datasets.md) and [pipeline operations](data-pipeline.md). No additional or synthetic observations are introduced in Phase 4.
 
-## Implementation checkpoint
+## Approved frontend integration
 
-The PostgreSQL analytics API and CSV exports are implemented. The proposed frontend integration is an **Analytics** button within the existing corridor panel, opening a collapsible drawer with Trends, Rankings, Comparisons, and Economics tabs; mobile uses a dismissible bottom sheet. It stays closed by default and preserves the existing globe, navigation, colors, typography, and animations. This layout awaits owner approval before any frontend changes. Charts, chart interaction tests, and final Phase 4 CI verification remain outstanding.
+The owner approved an **Analytics** button within the existing corridor panel, opening a collapsible desktop drawer with Trends, Rankings, Comparisons, and Economics tabs; mobile uses a dismissible bottom sheet. It stays closed by default. Earth rendering, existing navigation, colors, typography, and animations are preserved. New styles are scoped in `src/analytics/analytics.css`; the chart bundle loads only on opening the drawer.
 
-Checks actually run at this checkpoint:
+The drawer has a reporting-period selector sharing the globe year state, interactive chart tooltips, keyboard tab navigation, an accessible table, source links, coverage warnings, pagination, CSV download progress/errors, and loading/empty/error states. Charts use nonanimated SVG with responsive sizing. Escape or the close button dismisses the drawer and returns focus to its launcher; the nonmodal desktop drawer leaves the globe and its filters interactive.
 
-- Python: 80 tests passed, including real PostgreSQL integration tests, official-data calculation checks, and CSV pagination/provenance checks.
-- Ruff lint and formatting: passed.
-- Frontend ESLint: passed; Vitest: 11 tests passed; TypeScript: passed; production build: passed.
-- Existing Playwright regression suite: six desktop/mobile tests passed against the real local API and Earth renderer, including console-error checks.
-- All 19 approved Phase 3 rendering source/asset hashes match the recorded baseline.
-- Full-data SQL comparisons passed for country rankings and ACS net estimates. Actual coverage and single-run local endpoint timings are recorded in [database verification](phase-4-database-verification.json); these timings are observations, not production benchmarks.
+- **Trends:** selecting a globe route follows that exact origin→destination corridor by default. Disable “Follow selected corridor” to use the globe filters instead. The numeric time axis preserves actual reference-year spacing; missing values are not connected. A single IRS period is a point, not an invented trend.
+- **Rankings:** select top corridors, origins, destinations, or magnitude distribution. Charts display at most ten rows per page. Magnitude distributions count corridors, not people. Globe filters, magnitude threshold, and optional route scope apply.
+- **Comparisons:** choose up to six real geographic identifiers and a migration side. A selected route proposes its two endpoints. Comparisons use the globe filters, not a hidden replacement universe. “Net interstate migration” uses the complete ACS matrix, and is unavailable until restrictive globe filters are reset. Incomplete states are withheld rather than estimated.
+- **Economics:** choose one of the four actually integrated World Bank indicators, a migration side, and optionally countries. Up to 250 country rows are returned; only observed economic/migration pairs appear in scatter plots. Missing/unpublished pairs remain visible as unavailable in the table. Unsupported exact years and state economics have explicit explanatory states. No nearest-year or national-for-state substitution occurs.
+- **Mode/source/measure changes:** reset drawer-local selection and keep API parameters aligned with the globe. Pagination resets on filter changes, and stale API responses are discarded.
+- **CSV:** exports the complete matching server-side analysis rather than the chart's page. Oversized exports explain the 5,000-row cap; failed downloads display errors instead of saving an API error as a data file.
 
-No Phase 4 changes have been pushed at this checkpoint. Existing warnings remain: Starlette's HTTPX deprecation and Vite's large lazy-loaded Three.js chunk warning. No database schema migration, new datasets, or ML functionality has been introduced.
+[Verification results](phase-4-verification.md) include PostgreSQL calculations, frontend interactions, responsive browser checks, production build, and CI. No new datasets or ML functionality are introduced in Phase 4.
