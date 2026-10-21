@@ -1,0 +1,64 @@
+{
+  "database": "PostgreSQL 17; existing full Phase 2 active batch",
+  "checks": [
+    {
+      "kind": "trends",
+      "total": 8,
+      "observed": 74783,
+      "unavailable": 1,
+      "milliseconds": 151
+    },
+    {
+      "kind": "corridors",
+      "total": 9348,
+      "observed": 9348,
+      "unavailable": 0,
+      "milliseconds": 68
+    },
+    {
+      "kind": "rankings",
+      "total": 231,
+      "observed": 9348,
+      "unavailable": 0,
+      "milliseconds": 55
+    },
+    {
+      "kind": "comparisons",
+      "total": 231,
+      "observed": 9348,
+      "unavailable": 0,
+      "milliseconds": 51
+    },
+    {
+      "kind": "distribution",
+      "total": 5,
+      "observed": 9348,
+      "unavailable": 0,
+      "milliseconds": 47
+    },
+    {
+      "kind": "economics",
+      "total": 231,
+      "observed": 9348,
+      "unavailable": 0,
+      "milliseconds": 133
+    },
+    {
+      "kind": "net",
+      "year": 2023,
+      "complete_states": 51,
+      "equals_independent_sql": true
+    },
+    {
+      "kind": "net",
+      "year": 2024,
+      "complete_states": 3,
+      "equals_independent_sql": true
+    }
+  ],
+  "batch_id": "0b5c4bf04f915617cbb337119fb7727dbf066c19c2e430a4215ebafb29ba7063",
+  "rankings_equal_independent_sql": true,
+  "oversized_export_rejected": true,
+  "economic_points_observed": 199,
+  "economic_points_unavailable": 32
+}
