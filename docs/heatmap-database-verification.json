@@ -1,0 +1,277 @@
+{
+  "batch_id": "0b5c4bf04f915617cbb337119fb7727dbf066c19c2e430a4215ebafb29ba7063",
+  "checks": [
+    {
+      "dataset": "un_stock_2024",
+      "year": 1990,
+      "measure": "stock_persons",
+      "direction": "incoming",
+      "geographies": 236,
+      "unmatched": [
+        "country:292"
+      ],
+      "milliseconds": 90,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "un_stock_2024",
+      "year": 1990,
+      "measure": "stock_persons",
+      "direction": "outgoing",
+      "geographies": 236,
+      "unmatched": [
+        "country:292"
+      ],
+      "milliseconds": 49,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "un_stock_2024",
+      "year": 1995,
+      "measure": "stock_persons",
+      "direction": "incoming",
+      "geographies": 236,
+      "unmatched": [
+        "country:292"
+      ],
+      "milliseconds": 57,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "un_stock_2024",
+      "year": 1995,
+      "measure": "stock_persons",
+      "direction": "outgoing",
+      "geographies": 236,
+      "unmatched": [
+        "country:292"
+      ],
+      "milliseconds": 40,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "un_stock_2024",
+      "year": 2000,
+      "measure": "stock_persons",
+      "direction": "incoming",
+      "geographies": 236,
+      "unmatched": [
+        "country:292"
+      ],
+      "milliseconds": 45,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "un_stock_2024",
+      "year": 2000,
+      "measure": "stock_persons",
+      "direction": "outgoing",
+      "geographies": 236,
+      "unmatched": [
+        "country:292"
+      ],
+      "milliseconds": 51,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "un_stock_2024",
+      "year": 2005,
+      "measure": "stock_persons",
+      "direction": "incoming",
+      "geographies": 236,
+      "unmatched": [
+        "country:292"
+      ],
+      "milliseconds": 46,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "un_stock_2024",
+      "year": 2005,
+      "measure": "stock_persons",
+      "direction": "outgoing",
+      "geographies": 236,
+      "unmatched": [
+        "country:292"
+      ],
+      "milliseconds": 58,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "un_stock_2024",
+      "year": 2010,
+      "measure": "stock_persons",
+      "direction": "incoming",
+      "geographies": 236,
+      "unmatched": [
+        "country:292"
+      ],
+      "milliseconds": 64,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "un_stock_2024",
+      "year": 2010,
+      "measure": "stock_persons",
+      "direction": "outgoing",
+      "geographies": 236,
+      "unmatched": [
+        "country:292"
+      ],
+      "milliseconds": 57,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "un_stock_2024",
+      "year": 2015,
+      "measure": "stock_persons",
+      "direction": "incoming",
+      "geographies": 236,
+      "unmatched": [
+        "country:292"
+      ],
+      "milliseconds": 93,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "un_stock_2024",
+      "year": 2015,
+      "measure": "stock_persons",
+      "direction": "outgoing",
+      "geographies": 236,
+      "unmatched": [
+        "country:292"
+      ],
+      "milliseconds": 62,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "un_stock_2024",
+      "year": 2020,
+      "measure": "stock_persons",
+      "direction": "incoming",
+      "geographies": 236,
+      "unmatched": [
+        "country:292"
+      ],
+      "milliseconds": 65,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "un_stock_2024",
+      "year": 2020,
+      "measure": "stock_persons",
+      "direction": "outgoing",
+      "geographies": 236,
+      "unmatched": [
+        "country:292"
+      ],
+      "milliseconds": 43,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "un_stock_2024",
+      "year": 2024,
+      "measure": "stock_persons",
+      "direction": "incoming",
+      "geographies": 236,
+      "unmatched": [
+        "country:292"
+      ],
+      "milliseconds": 41,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "un_stock_2024",
+      "year": 2024,
+      "measure": "stock_persons",
+      "direction": "outgoing",
+      "geographies": 236,
+      "unmatched": [
+        "country:292"
+      ],
+      "milliseconds": 41,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "census_acs_2023",
+      "year": 2023,
+      "measure": "acs_movers",
+      "direction": "incoming",
+      "geographies": 51,
+      "unmatched": [],
+      "milliseconds": 36,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "census_acs_2023",
+      "year": 2023,
+      "measure": "acs_movers",
+      "direction": "outgoing",
+      "geographies": 51,
+      "unmatched": [],
+      "milliseconds": 33,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "census_acs_2024",
+      "year": 2024,
+      "measure": "acs_movers",
+      "direction": "incoming",
+      "geographies": 51,
+      "unmatched": [],
+      "milliseconds": 38,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "census_acs_2024",
+      "year": 2024,
+      "measure": "acs_movers",
+      "direction": "outgoing",
+      "geographies": 51,
+      "unmatched": [],
+      "milliseconds": 40,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "irs_state_2223",
+      "year": 2023,
+      "measure": "tax_returns",
+      "direction": "incoming",
+      "geographies": 51,
+      "unmatched": [],
+      "milliseconds": 48,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "irs_state_2223",
+      "year": 2023,
+      "measure": "tax_returns",
+      "direction": "outgoing",
+      "geographies": 51,
+      "unmatched": [],
+      "milliseconds": 30,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "irs_state_2223",
+      "year": 2023,
+      "measure": "tax_individuals",
+      "direction": "incoming",
+      "geographies": 51,
+      "unmatched": [],
+      "milliseconds": 30,
+      "equals_independent_sql": true
+    },
+    {
+      "dataset": "irs_state_2223",
+      "year": 2023,
+      "measure": "tax_individuals",
+      "direction": "outgoing",
+      "geographies": 51,
+      "unmatched": [],
+      "milliseconds": 32,
+      "equals_independent_sql": true
+    }
+  ]
+}

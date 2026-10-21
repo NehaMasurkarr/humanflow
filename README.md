@@ -99,6 +99,8 @@ Backend tests cover the health response, its OpenAPI entry, unsupported methods,
 
 GitHub Actions runs backend/data lint, formatting, and PostgreSQL tests alongside frontend lint, unit tests, TypeScript, and builds. A separate browser job seeds an isolated PostgreSQL database from genuine official excerpts, launches the API and frontend, and runs desktop/mobile Chromium tests. CI does not download live migration datasets. Frontend installations use the committed npm lockfile. Python direct dependency versions are pinned in `pyproject.toml`; transitive Python dependencies are resolved by pip rather than locked.
 
+**Heatmap extension:** approved country/state overlays with PostgreSQL-backed incoming and outgoing measurements. See [heatmap controls, boundary provenance, and verification](docs/heatmap.md). The default globe view remains Arcs.
+
 ## Interactive analytics
 
 Open **Analytics** inside the corridor panel (on mobile, open **Corridors** first). The drawer stays closed by default; the globe renderer and existing navigation, styles, and animations are preserved.

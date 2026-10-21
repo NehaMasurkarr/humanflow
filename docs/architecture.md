@@ -40,3 +40,10 @@ See [dataset definitions](datasets.md), [pipeline commands and schema](data-pipe
 - Export complete filtered result sets with source and measurement provenance, with a 5,000-row cap and explicit oversized-export rejection. Do not silently export only the displayed page.
 - Implement the owner-approved, closed-by-default analytics drawer and mobile bottom sheet as additive components with scoped CSS and a lazy-loaded Recharts bundle. Keep existing navigation, renderer, imagery, typography, and animations unchanged. Share source/period/geographic state with the globe; reset comparison state on mode/source/measure changes. Preserve exact-year joins and missingness in charts, tooltips, and accessible tables.
 - Extend frontend interaction and real desktop/mobile browser tests without adding synthetic migration data. Existing CI jobs cover the new API, UI, and SVG/export interactions. See [analytics contracts](phase-4-analytics.md), [full-data SQL verification](phase-4-database-verification.json), and [Phase 4 verification](phase-4-verification.md).
+
+## Phase 4 heatmap extension
+
+- Add a read-only, all-geography `/v1/heatmap` aggregation contract, independent of the limited arc page. Preserve source, period, measure/unit, missing/suppressed/threshold coverage, and a nullable reported sum. Never derive density, annual flows from stocks, or net migration from this layer.
+- Process locked Natural Earth map units and Census state polygons into verified ID-based outlines. Record grouping/exclusions, license, vintage, and hashes; keep raw snapshots outside Git. Expose unmatched boundary coverage explicitly.
+- Rasterize cached polygon paths to one reusable transparent globe texture, preserving original Earth shaders and imagery. Share existing filters, use numeric log-scaled blue-to-gold colors, expose opacity and legend controls, and support vector polygon raycasting and an accessible table.
+- Keep default Arcs behavior and existing Phase 1–4 functionality. The owner approved the heatmap preview before publication. See [heatmap documentation](heatmap.md).
