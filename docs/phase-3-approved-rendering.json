@@ -1,0 +1,21 @@
+{
+  "frontend/index.html": "1be97547dbb339e72441bd9660b94a989295ec52ba794c2087269a56c5dc0821",
+  "frontend/public/favicon.svg": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66",
+  "frontend/public/icons.svg": "b45fa506195cfcdef406ba9f0c77b36ddc1a7c224040926ec70abc2fdea7b93a",
+  "frontend/public/textures/earth-day.jpg": "d42aa2601da82b3b61a9c77d4fc461d5738ce8621581b06be65bebe103c2c3b1",
+  "frontend/public/textures/earth-night.jpg": "d87de751a264e4f8ff69c68de5dab9606daee87a6f15ae743c93200743bd7ec1",
+  "frontend/public/textures/provenance.json": "97aa0c701983bf95ed1dced117603e33c1e537a432ba327aba9fff6212134f11",
+  "frontend/src/App.css": "7d30b687f7f5d239a6bf51213f269cdc42a2ec08021640cc1ce13e0c78d58433",
+  "frontend/src/App.tsx": "61a3d33d737338972f61bacf24c392f2081a67f8da1c1a79b84be47a0f211580",
+  "frontend/src/assets/hero.png": "881ffbcaafc212e49addad08846a5b82761355fa20624253af3477ba33262c5c",
+  "frontend/src/assets/react.svg": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5",
+  "frontend/src/assets/vite.svg": "5be21acd42eb7b896e517f4e0f0f11eb5c5d9e54fbbcebe9453f033008fcca6f",
+  "frontend/src/globe/EarthScene.tsx": "d8ce097aac230331813571b5493d7839861ee8d73dc7cfacdf3127d348b9bfbd",
+  "frontend/src/globe/GlobeViewport.tsx": "c53038140bdfb6dca49d2931841aa2bd1389d2306cafa9f0fb17c1594223a283",
+  "frontend/src/globe/geometry.ts": "b8209c39deb031651867aeb4e511e8646e8fb3d9b3f293dd21b81c3a5b40cc6b",
+  "frontend/src/globe/shaders.ts": "8f2cd053b6017da225b0c79c130a6ffa0b6c6d86581635897b77428211b7b197",
+  "frontend/src/index.css": "e2f56477c287deaf64d2a3bdbbb249e715a988a191ba925764f5b42c270d7fc7",
+  "frontend/src/lib/api.ts": "865be8715ba20fb69756d689e9e3249c97ba171191fb6704c9950e687ccdc532",
+  "frontend/src/lib/types.ts": "2be4a3e5b31ac67ab1da50c2f590e9de5b06f2d0417436be8dd1e03bfede0053",
+  "frontend/src/main.tsx": "6e9e5807fcbd48b75a96db5cbef36c996262196be42e6d4760dc86babbe61ad2"
+}

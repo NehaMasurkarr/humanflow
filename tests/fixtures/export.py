@@ -4,6 +4,7 @@ Run: python tests/fixtures/export.py (from the repository root).
 This does not invent migration values. Every retained data cell comes from a pinned source.
 """
 
+import argparse
 from pathlib import Path
 
 import pandas as pd
@@ -11,17 +12,29 @@ import pandas as pd
 from pipelines.sources import catalog, digest, read_json, verified_paths, write_json
 
 
-def export():
+def export(only: set[str] | None = None):
     root = Path.cwd()
     lock, paths = verified_paths(root)
     out = root / "tests/fixtures/official"
     out.mkdir(parents=True, exist_ok=True)
-    selections = {}
+    provenance = out / "provenance.json"
+    selections = read_json(provenance) if only and provenance.exists() else {}
+    if only and not only.issubset(paths):
+        raise ValueError("Unknown fixture resource")
     for key, path in paths.items():
+        if only and key not in only:
+            continue
         if key == "un_stock_2024":
             frame = pd.read_excel(path, sheet_name="Table 1", header=None)
             selected = frame.index[(frame[4] == 840) & frame[6].isin([356, 484, 124, 900])]
-            keep = list(range(11)) + list(selected)
+            bilateral = frame.iloc[11:].loc[(frame.iloc[11:, 4] < 900) & (frame.iloc[11:, 6] < 900)]
+            top = (
+                bilateral.assign(magnitude=pd.to_numeric(bilateral[14]))
+                .nlargest(100, "magnitude")
+                .index
+            )
+            # Enough genuine corridors for desktop/mobile pagination in CI.
+            keep = list(range(11)) + sorted(set(selected) | set(top))
             data = frame.loc[keep]
             filename = key + ".xlsx"
             with pd.ExcelWriter(out / filename) as writer:
@@ -51,9 +64,10 @@ def export():
         elif key.startswith("irs_"):
             frame = pd.read_csv(path, dtype=str, encoding="cp1252")
             if key == "irs_state_2223":
-                selected = (frame.y1_statefips == "01") & frame.y2_statefips.isin(
-                    ["01", "13", "12", "96", "97", "98"]
-                )
+                selected = (
+                    (frame.y1_statefips == "01")
+                    & frame.y2_statefips.isin(["01", "13", "12", "96", "97", "98"])
+                ) | (frame.y1_statefips == "06")
             else:
                 selected = (
                     (frame.y1_statefips == "01")
@@ -89,4 +103,7 @@ def export():
 
 
 if __name__ == "__main__":
-    export()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--only", nargs="+", help="Regenerate only these resource IDs")
+    args = parser.parse_args()
+    export(set(args.only) if args.only else None)

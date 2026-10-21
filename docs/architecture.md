@@ -22,3 +22,12 @@ Testing references: [FastAPI testing](https://fastapi.tiangolo.com/tutorial/test
 - Keep network acquisition separate from CI. Tests use genuine official excerpts and a PostgreSQL 17 service. Full local acquisition and data counts are documented separately.
 
 See [dataset definitions](datasets.md), [pipeline commands and schema](data-pipeline.md), and [Phase 2 verification](phase-2-verification.md).
+
+## Phase 3
+
+- Preserve the owner-approved frontend design and rendering files exactly during finalization; record the approved source and asset checksums.
+- Add read-only `/v1/datasets`, `/v1/geographies`, and `/v1/corridors` APIs backed by the active PostgreSQL batch. Enforce source/mode/year/measure compatibility and bounded, deterministic pagination. Keep `/health` independent of the database.
+- Add an additive anchor table and globe-filter index through migration `002_globe.sql`. Coordinates preserve World Bank/Census provenance; unavailable anchors are counted explicitly. Existing migration facts are unchanged.
+- Use local NASA day/night composites, React Three Fiber, Three.js, and Drei. Retain stocks versus flows and real reporting periods in filters, tooltips, and details. Arcs represent statistical relationships rather than actual travel paths.
+- Extend CI with a PostgreSQL-backed browser job, source-derived fixture seed, actual API/Vite startup, and desktop/mobile Chromium checks. Include browser configuration and test code in TypeScript checking.
+- Phase 4 analytics and ML remain outside this release. See [Phase 3 verification](phase-3-verification.md) and [globe setup](phase-3-preview.md).
