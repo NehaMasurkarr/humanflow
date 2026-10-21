@@ -1,0 +1,3161 @@
+{
+  "items": [
+    {
+      "id": "country:004",
+      "name": "Afghanistan",
+      "level": "country",
+      "code": "004",
+      "iso3": "AFG",
+      "anchor": {
+        "latitude": 34.5228,
+        "longitude": 69.1761,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:008",
+      "name": "Albania",
+      "level": "country",
+      "code": "008",
+      "iso3": "ALB",
+      "anchor": {
+        "latitude": 41.3317,
+        "longitude": 19.8172,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:012",
+      "name": "Algeria",
+      "level": "country",
+      "code": "012",
+      "iso3": "DZA",
+      "anchor": {
+        "latitude": 36.7397,
+        "longitude": 3.05097,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:016",
+      "name": "American Samoa",
+      "level": "country",
+      "code": "016",
+      "iso3": "ASM",
+      "anchor": {
+        "latitude": -14.2846,
+        "longitude": -170.691,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:020",
+      "name": "Andorra",
+      "level": "country",
+      "code": "020",
+      "iso3": "AND",
+      "anchor": {
+        "latitude": 42.5075,
+        "longitude": 1.5218,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:024",
+      "name": "Angola",
+      "level": "country",
+      "code": "024",
+      "iso3": "AGO",
+      "anchor": {
+        "latitude": -8.81155,
+        "longitude": 13.242,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:660",
+      "name": "Anguilla",
+      "level": "country",
+      "code": "660",
+      "iso3": "AIA",
+      "anchor": null
+    },
+    {
+      "id": "country:028",
+      "name": "Antigua and Barbuda",
+      "level": "country",
+      "code": "028",
+      "iso3": "ATG",
+      "anchor": {
+        "latitude": 17.1175,
+        "longitude": -61.8456,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:032",
+      "name": "Argentina",
+      "level": "country",
+      "code": "032",
+      "iso3": "ARG",
+      "anchor": {
+        "latitude": -34.6118,
+        "longitude": -58.4173,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:051",
+      "name": "Armenia",
+      "level": "country",
+      "code": "051",
+      "iso3": "ARM",
+      "anchor": {
+        "latitude": 40.1596,
+        "longitude": 44.509,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:533",
+      "name": "Aruba",
+      "level": "country",
+      "code": "533",
+      "iso3": "ABW",
+      "anchor": {
+        "latitude": 12.5167,
+        "longitude": -70.0167,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:036",
+      "name": "Australia",
+      "level": "country",
+      "code": "036",
+      "iso3": "AUS",
+      "anchor": {
+        "latitude": -35.282,
+        "longitude": 149.129,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:040",
+      "name": "Austria",
+      "level": "country",
+      "code": "040",
+      "iso3": "AUT",
+      "anchor": {
+        "latitude": 48.2201,
+        "longitude": 16.3798,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:031",
+      "name": "Azerbaijan",
+      "level": "country",
+      "code": "031",
+      "iso3": "AZE",
+      "anchor": {
+        "latitude": 40.3834,
+        "longitude": 49.8932,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:044",
+      "name": "Bahamas, The",
+      "level": "country",
+      "code": "044",
+      "iso3": "BHS",
+      "anchor": {
+        "latitude": 25.0661,
+        "longitude": -77.339,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:048",
+      "name": "Bahrain",
+      "level": "country",
+      "code": "048",
+      "iso3": "BHR",
+      "anchor": {
+        "latitude": 26.1921,
+        "longitude": 50.5354,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:050",
+      "name": "Bangladesh",
+      "level": "country",
+      "code": "050",
+      "iso3": "BGD",
+      "anchor": {
+        "latitude": 23.7055,
+        "longitude": 90.4113,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:052",
+      "name": "Barbados",
+      "level": "country",
+      "code": "052",
+      "iso3": "BRB",
+      "anchor": {
+        "latitude": 13.0935,
+        "longitude": -59.6105,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:112",
+      "name": "Belarus",
+      "level": "country",
+      "code": "112",
+      "iso3": "BLR",
+      "anchor": {
+        "latitude": 53.9678,
+        "longitude": 27.5766,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:056",
+      "name": "Belgium",
+      "level": "country",
+      "code": "056",
+      "iso3": "BEL",
+      "anchor": {
+        "latitude": 50.8371,
+        "longitude": 4.36761,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:084",
+      "name": "Belize",
+      "level": "country",
+      "code": "084",
+      "iso3": "BLZ",
+      "anchor": {
+        "latitude": 17.2534,
+        "longitude": -88.7713,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:204",
+      "name": "Benin",
+      "level": "country",
+      "code": "204",
+      "iso3": "BEN",
+      "anchor": {
+        "latitude": 6.4779,
+        "longitude": 2.6323,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:060",
+      "name": "Bermuda",
+      "level": "country",
+      "code": "060",
+      "iso3": "BMU",
+      "anchor": {
+        "latitude": 32.3293,
+        "longitude": -64.706,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:064",
+      "name": "Bhutan",
+      "level": "country",
+      "code": "064",
+      "iso3": "BTN",
+      "anchor": {
+        "latitude": 27.5768,
+        "longitude": 89.6177,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:068",
+      "name": "Bolivia",
+      "level": "country",
+      "code": "068",
+      "iso3": "BOL",
+      "anchor": {
+        "latitude": -13.9908,
+        "longitude": -66.1936,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:535",
+      "name": "Bonaire, Sint Eustatius and Saba",
+      "level": "country",
+      "code": "535",
+      "iso3": "BES",
+      "anchor": null
+    },
+    {
+      "id": "country:070",
+      "name": "Bosnia and Herzegovina",
+      "level": "country",
+      "code": "070",
+      "iso3": "BIH",
+      "anchor": {
+        "latitude": 43.8607,
+        "longitude": 18.4214,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:072",
+      "name": "Botswana",
+      "level": "country",
+      "code": "072",
+      "iso3": "BWA",
+      "anchor": {
+        "latitude": -24.6544,
+        "longitude": 25.9201,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:076",
+      "name": "Brazil",
+      "level": "country",
+      "code": "076",
+      "iso3": "BRA",
+      "anchor": {
+        "latitude": -15.7801,
+        "longitude": -47.9292,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:092",
+      "name": "British Virgin Islands",
+      "level": "country",
+      "code": "092",
+      "iso3": "VGB",
+      "anchor": {
+        "latitude": 18.431389,
+        "longitude": -64.623056,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:096",
+      "name": "Brunei Darussalam",
+      "level": "country",
+      "code": "096",
+      "iso3": "BRN",
+      "anchor": {
+        "latitude": 4.94199,
+        "longitude": 114.946,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:100",
+      "name": "Bulgaria",
+      "level": "country",
+      "code": "100",
+      "iso3": "BGR",
+      "anchor": {
+        "latitude": 42.7105,
+        "longitude": 23.3238,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:854",
+      "name": "Burkina Faso",
+      "level": "country",
+      "code": "854",
+      "iso3": "BFA",
+      "anchor": {
+        "latitude": 12.3605,
+        "longitude": -1.53395,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:108",
+      "name": "Burundi",
+      "level": "country",
+      "code": "108",
+      "iso3": "BDI",
+      "anchor": {
+        "latitude": -3.3784,
+        "longitude": 29.3639,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:132",
+      "name": "Cabo Verde",
+      "level": "country",
+      "code": "132",
+      "iso3": "CPV",
+      "anchor": {
+        "latitude": 14.9218,
+        "longitude": -23.5087,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:116",
+      "name": "Cambodia",
+      "level": "country",
+      "code": "116",
+      "iso3": "KHM",
+      "anchor": {
+        "latitude": 11.5556,
+        "longitude": 104.874,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:120",
+      "name": "Cameroon",
+      "level": "country",
+      "code": "120",
+      "iso3": "CMR",
+      "anchor": {
+        "latitude": 3.8721,
+        "longitude": 11.5174,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:124",
+      "name": "Canada",
+      "level": "country",
+      "code": "124",
+      "iso3": "CAN",
+      "anchor": {
+        "latitude": 45.4215,
+        "longitude": -75.6919,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:136",
+      "name": "Cayman Islands",
+      "level": "country",
+      "code": "136",
+      "iso3": "CYM",
+      "anchor": {
+        "latitude": 19.3022,
+        "longitude": -81.3857,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:140",
+      "name": "Central African Republic",
+      "level": "country",
+      "code": "140",
+      "iso3": "CAF",
+      "anchor": {
+        "latitude": 5.63056,
+        "longitude": 21.6407,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:148",
+      "name": "Chad",
+      "level": "country",
+      "code": "148",
+      "iso3": "TCD",
+      "anchor": {
+        "latitude": 12.1048,
+        "longitude": 15.0445,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:830",
+      "name": "Channel Islands",
+      "level": "country",
+      "code": "830",
+      "iso3": null,
+      "anchor": null
+    },
+    {
+      "id": "country:152",
+      "name": "Chile",
+      "level": "country",
+      "code": "152",
+      "iso3": "CHL",
+      "anchor": {
+        "latitude": -33.475,
+        "longitude": -70.6475,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:156",
+      "name": "China",
+      "level": "country",
+      "code": "156",
+      "iso3": "CHN",
+      "anchor": {
+        "latitude": 40.0495,
+        "longitude": 116.286,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:158",
+      "name": "China, Taiwan Province of China",
+      "level": "country",
+      "code": "158",
+      "iso3": "TWN",
+      "anchor": null
+    },
+    {
+      "id": "country:170",
+      "name": "Colombia",
+      "level": "country",
+      "code": "170",
+      "iso3": "COL",
+      "anchor": {
+        "latitude": 4.60987,
+        "longitude": -74.082,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:174",
+      "name": "Comoros",
+      "level": "country",
+      "code": "174",
+      "iso3": "COM",
+      "anchor": {
+        "latitude": -11.6986,
+        "longitude": 43.2418,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:180",
+      "name": "Congo, Dem. Rep.",
+      "level": "country",
+      "code": "180",
+      "iso3": "COD",
+      "anchor": {
+        "latitude": -4.325,
+        "longitude": 15.3222,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:178",
+      "name": "Congo, Rep.",
+      "level": "country",
+      "code": "178",
+      "iso3": "COG",
+      "anchor": {
+        "latitude": -4.2767,
+        "longitude": 15.2662,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:184",
+      "name": "Cook Islands",
+      "level": "country",
+      "code": "184",
+      "iso3": "COK",
+      "anchor": null
+    },
+    {
+      "id": "country:188",
+      "name": "Costa Rica",
+      "level": "country",
+      "code": "188",
+      "iso3": "CRI",
+      "anchor": {
+        "latitude": 9.63701,
+        "longitude": -84.0089,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:384",
+      "name": "Cote d'Ivoire",
+      "level": "country",
+      "code": "384",
+      "iso3": "CIV",
+      "anchor": {
+        "latitude": 5.332,
+        "longitude": -4.0305,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:191",
+      "name": "Croatia",
+      "level": "country",
+      "code": "191",
+      "iso3": "HRV",
+      "anchor": {
+        "latitude": 45.8069,
+        "longitude": 15.9614,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:192",
+      "name": "Cuba",
+      "level": "country",
+      "code": "192",
+      "iso3": "CUB",
+      "anchor": {
+        "latitude": 23.1333,
+        "longitude": -82.3667,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:531",
+      "name": "Curacao",
+      "level": "country",
+      "code": "531",
+      "iso3": "CUW",
+      "anchor": null
+    },
+    {
+      "id": "country:196",
+      "name": "Cyprus",
+      "level": "country",
+      "code": "196",
+      "iso3": "CYP",
+      "anchor": {
+        "latitude": 35.1676,
+        "longitude": 33.3736,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:203",
+      "name": "Czechia",
+      "level": "country",
+      "code": "203",
+      "iso3": "CZE",
+      "anchor": {
+        "latitude": 50.0878,
+        "longitude": 14.4205,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:208",
+      "name": "Denmark",
+      "level": "country",
+      "code": "208",
+      "iso3": "DNK",
+      "anchor": {
+        "latitude": 55.6763,
+        "longitude": 12.5681,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:262",
+      "name": "Djibouti",
+      "level": "country",
+      "code": "262",
+      "iso3": "DJI",
+      "anchor": {
+        "latitude": 11.5806,
+        "longitude": 43.1425,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:212",
+      "name": "Dominica",
+      "level": "country",
+      "code": "212",
+      "iso3": "DMA",
+      "anchor": {
+        "latitude": 15.2976,
+        "longitude": -61.39,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:214",
+      "name": "Dominican Republic",
+      "level": "country",
+      "code": "214",
+      "iso3": "DOM",
+      "anchor": {
+        "latitude": 18.479,
+        "longitude": -69.8908,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:218",
+      "name": "Ecuador",
+      "level": "country",
+      "code": "218",
+      "iso3": "ECU",
+      "anchor": {
+        "latitude": -0.229498,
+        "longitude": -78.5243,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:818",
+      "name": "Egypt, Arab Rep.",
+      "level": "country",
+      "code": "818",
+      "iso3": "EGY",
+      "anchor": {
+        "latitude": 30.0982,
+        "longitude": 31.2461,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:222",
+      "name": "El Salvador",
+      "level": "country",
+      "code": "222",
+      "iso3": "SLV",
+      "anchor": {
+        "latitude": 13.7034,
+        "longitude": -89.2073,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:226",
+      "name": "Equatorial Guinea",
+      "level": "country",
+      "code": "226",
+      "iso3": "GNQ",
+      "anchor": {
+        "latitude": 3.7523,
+        "longitude": 8.7741,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:232",
+      "name": "Eritrea",
+      "level": "country",
+      "code": "232",
+      "iso3": "ERI",
+      "anchor": {
+        "latitude": 15.3315,
+        "longitude": 38.9183,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:233",
+      "name": "Estonia",
+      "level": "country",
+      "code": "233",
+      "iso3": "EST",
+      "anchor": {
+        "latitude": 59.4392,
+        "longitude": 24.7586,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:748",
+      "name": "Eswatini",
+      "level": "country",
+      "code": "748",
+      "iso3": "SWZ",
+      "anchor": {
+        "latitude": -26.5225,
+        "longitude": 31.4659,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:231",
+      "name": "Ethiopia",
+      "level": "country",
+      "code": "231",
+      "iso3": "ETH",
+      "anchor": {
+        "latitude": 9.02274,
+        "longitude": 38.7468,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:238",
+      "name": "Falkland Islands (Malvinas)",
+      "level": "country",
+      "code": "238",
+      "iso3": "FLK",
+      "anchor": null
+    },
+    {
+      "id": "country:234",
+      "name": "Faroe Islands",
+      "level": "country",
+      "code": "234",
+      "iso3": "FRO",
+      "anchor": {
+        "latitude": 61.8926,
+        "longitude": -6.91181,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:242",
+      "name": "Fiji",
+      "level": "country",
+      "code": "242",
+      "iso3": "FJI",
+      "anchor": {
+        "latitude": -18.1149,
+        "longitude": 178.399,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:246",
+      "name": "Finland",
+      "level": "country",
+      "code": "246",
+      "iso3": "FIN",
+      "anchor": {
+        "latitude": 60.1608,
+        "longitude": 24.9525,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:250",
+      "name": "France",
+      "level": "country",
+      "code": "250",
+      "iso3": "FRA",
+      "anchor": {
+        "latitude": 48.8566,
+        "longitude": 2.35097,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:254",
+      "name": "French Guiana",
+      "level": "country",
+      "code": "254",
+      "iso3": "GUF",
+      "anchor": null
+    },
+    {
+      "id": "country:258",
+      "name": "French Polynesia",
+      "level": "country",
+      "code": "258",
+      "iso3": "PYF",
+      "anchor": {
+        "latitude": -17.535,
+        "longitude": -149.57,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:266",
+      "name": "Gabon",
+      "level": "country",
+      "code": "266",
+      "iso3": "GAB",
+      "anchor": {
+        "latitude": 0.38832,
+        "longitude": 9.45162,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:270",
+      "name": "Gambia, The",
+      "level": "country",
+      "code": "270",
+      "iso3": "GMB",
+      "anchor": {
+        "latitude": 13.4495,
+        "longitude": -16.5885,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:268",
+      "name": "Georgia",
+      "level": "country",
+      "code": "268",
+      "iso3": "GEO",
+      "anchor": {
+        "latitude": 41.71,
+        "longitude": 44.793,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:276",
+      "name": "Germany",
+      "level": "country",
+      "code": "276",
+      "iso3": "DEU",
+      "anchor": {
+        "latitude": 52.5235,
+        "longitude": 13.4115,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:288",
+      "name": "Ghana",
+      "level": "country",
+      "code": "288",
+      "iso3": "GHA",
+      "anchor": {
+        "latitude": 5.57045,
+        "longitude": -0.20795,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:292",
+      "name": "Gibraltar",
+      "level": "country",
+      "code": "292",
+      "iso3": "GIB",
+      "anchor": null
+    },
+    {
+      "id": "country:300",
+      "name": "Greece",
+      "level": "country",
+      "code": "300",
+      "iso3": "GRC",
+      "anchor": {
+        "latitude": 37.9792,
+        "longitude": 23.7166,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:304",
+      "name": "Greenland",
+      "level": "country",
+      "code": "304",
+      "iso3": "GRL",
+      "anchor": {
+        "latitude": 64.1836,
+        "longitude": -51.7214,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:308",
+      "name": "Grenada",
+      "level": "country",
+      "code": "308",
+      "iso3": "GRD",
+      "anchor": {
+        "latitude": 12.0653,
+        "longitude": -61.7449,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:312",
+      "name": "Guadeloupe",
+      "level": "country",
+      "code": "312",
+      "iso3": "GLP",
+      "anchor": null
+    },
+    {
+      "id": "country:316",
+      "name": "Guam",
+      "level": "country",
+      "code": "316",
+      "iso3": "GUM",
+      "anchor": {
+        "latitude": 13.4443,
+        "longitude": 144.794,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:320",
+      "name": "Guatemala",
+      "level": "country",
+      "code": "320",
+      "iso3": "GTM",
+      "anchor": {
+        "latitude": 14.6248,
+        "longitude": -90.5328,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:324",
+      "name": "Guinea",
+      "level": "country",
+      "code": "324",
+      "iso3": "GIN",
+      "anchor": {
+        "latitude": 9.51667,
+        "longitude": -13.7,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:624",
+      "name": "Guinea-Bissau",
+      "level": "country",
+      "code": "624",
+      "iso3": "GNB",
+      "anchor": {
+        "latitude": 11.8037,
+        "longitude": -15.1804,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:328",
+      "name": "Guyana",
+      "level": "country",
+      "code": "328",
+      "iso3": "GUY",
+      "anchor": {
+        "latitude": 6.80461,
+        "longitude": -58.1548,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:332",
+      "name": "Haiti",
+      "level": "country",
+      "code": "332",
+      "iso3": "HTI",
+      "anchor": {
+        "latitude": 18.5392,
+        "longitude": -72.3288,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:336",
+      "name": "Holy See",
+      "level": "country",
+      "code": "336",
+      "iso3": "VAT",
+      "anchor": null
+    },
+    {
+      "id": "country:340",
+      "name": "Honduras",
+      "level": "country",
+      "code": "340",
+      "iso3": "HND",
+      "anchor": {
+        "latitude": 15.1333,
+        "longitude": -87.4667,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:344",
+      "name": "Hong Kong SAR, China",
+      "level": "country",
+      "code": "344",
+      "iso3": "HKG",
+      "anchor": {
+        "latitude": 22.3964,
+        "longitude": 114.109,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:348",
+      "name": "Hungary",
+      "level": "country",
+      "code": "348",
+      "iso3": "HUN",
+      "anchor": {
+        "latitude": 47.4984,
+        "longitude": 19.0408,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:352",
+      "name": "Iceland",
+      "level": "country",
+      "code": "352",
+      "iso3": "ISL",
+      "anchor": {
+        "latitude": 64.1353,
+        "longitude": -21.8952,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:356",
+      "name": "India",
+      "level": "country",
+      "code": "356",
+      "iso3": "IND",
+      "anchor": {
+        "latitude": 28.6353,
+        "longitude": 77.225,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:360",
+      "name": "Indonesia",
+      "level": "country",
+      "code": "360",
+      "iso3": "IDN",
+      "anchor": {
+        "latitude": -6.19752,
+        "longitude": 106.83,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:364",
+      "name": "Iran, Islamic Rep.",
+      "level": "country",
+      "code": "364",
+      "iso3": "IRN",
+      "anchor": {
+        "latitude": 35.6878,
+        "longitude": 51.4447,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:368",
+      "name": "Iraq",
+      "level": "country",
+      "code": "368",
+      "iso3": "IRQ",
+      "anchor": {
+        "latitude": 33.3302,
+        "longitude": 44.394,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:372",
+      "name": "Ireland",
+      "level": "country",
+      "code": "372",
+      "iso3": "IRL",
+      "anchor": {
+        "latitude": 53.3441,
+        "longitude": -6.26749,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:833",
+      "name": "Isle of Man",
+      "level": "country",
+      "code": "833",
+      "iso3": "IMN",
+      "anchor": {
+        "latitude": 54.1509,
+        "longitude": -4.47928,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:376",
+      "name": "Israel",
+      "level": "country",
+      "code": "376",
+      "iso3": "ISR",
+      "anchor": {
+        "latitude": 31.7717,
+        "longitude": 35.2035,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:380",
+      "name": "Italy",
+      "level": "country",
+      "code": "380",
+      "iso3": "ITA",
+      "anchor": {
+        "latitude": 41.8955,
+        "longitude": 12.4823,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:388",
+      "name": "Jamaica",
+      "level": "country",
+      "code": "388",
+      "iso3": "JAM",
+      "anchor": {
+        "latitude": 17.9927,
+        "longitude": -76.792,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:392",
+      "name": "Japan",
+      "level": "country",
+      "code": "392",
+      "iso3": "JPN",
+      "anchor": {
+        "latitude": 35.67,
+        "longitude": 139.77,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:400",
+      "name": "Jordan",
+      "level": "country",
+      "code": "400",
+      "iso3": "JOR",
+      "anchor": {
+        "latitude": 31.9497,
+        "longitude": 35.9263,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:398",
+      "name": "Kazakhstan",
+      "level": "country",
+      "code": "398",
+      "iso3": "KAZ",
+      "anchor": {
+        "latitude": 51.1879,
+        "longitude": 71.4382,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:404",
+      "name": "Kenya",
+      "level": "country",
+      "code": "404",
+      "iso3": "KEN",
+      "anchor": {
+        "latitude": -1.27975,
+        "longitude": 36.8126,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:296",
+      "name": "Kiribati",
+      "level": "country",
+      "code": "296",
+      "iso3": "KIR",
+      "anchor": {
+        "latitude": 1.32905,
+        "longitude": 172.979,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:408",
+      "name": "Korea, Dem. People's Rep.",
+      "level": "country",
+      "code": "408",
+      "iso3": "PRK",
+      "anchor": {
+        "latitude": 39.0319,
+        "longitude": 125.754,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:410",
+      "name": "Korea, Rep.",
+      "level": "country",
+      "code": "410",
+      "iso3": "KOR",
+      "anchor": {
+        "latitude": 37.5323,
+        "longitude": 126.957,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:WB:XKX",
+      "name": "Kosovo",
+      "level": "country",
+      "code": "XKX",
+      "iso3": null,
+      "anchor": {
+        "latitude": 42.565,
+        "longitude": 20.926,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:414",
+      "name": "Kuwait",
+      "level": "country",
+      "code": "414",
+      "iso3": "KWT",
+      "anchor": {
+        "latitude": 29.3721,
+        "longitude": 47.9824,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:417",
+      "name": "Kyrgyz Republic",
+      "level": "country",
+      "code": "417",
+      "iso3": "KGZ",
+      "anchor": {
+        "latitude": 42.8851,
+        "longitude": 74.6057,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:418",
+      "name": "Lao PDR",
+      "level": "country",
+      "code": "418",
+      "iso3": "LAO",
+      "anchor": {
+        "latitude": 18.5826,
+        "longitude": 102.177,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:428",
+      "name": "Latvia",
+      "level": "country",
+      "code": "428",
+      "iso3": "LVA",
+      "anchor": {
+        "latitude": 56.9465,
+        "longitude": 24.1048,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:422",
+      "name": "Lebanon",
+      "level": "country",
+      "code": "422",
+      "iso3": "LBN",
+      "anchor": {
+        "latitude": 33.8872,
+        "longitude": 35.5134,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:426",
+      "name": "Lesotho",
+      "level": "country",
+      "code": "426",
+      "iso3": "LSO",
+      "anchor": {
+        "latitude": -29.5208,
+        "longitude": 27.7167,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:430",
+      "name": "Liberia",
+      "level": "country",
+      "code": "430",
+      "iso3": "LBR",
+      "anchor": {
+        "latitude": 6.30039,
+        "longitude": -10.7957,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:434",
+      "name": "Libya",
+      "level": "country",
+      "code": "434",
+      "iso3": "LBY",
+      "anchor": {
+        "latitude": 32.8578,
+        "longitude": 13.1072,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:438",
+      "name": "Liechtenstein",
+      "level": "country",
+      "code": "438",
+      "iso3": "LIE",
+      "anchor": {
+        "latitude": 47.1411,
+        "longitude": 9.52148,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:440",
+      "name": "Lithuania",
+      "level": "country",
+      "code": "440",
+      "iso3": "LTU",
+      "anchor": {
+        "latitude": 54.6896,
+        "longitude": 25.2799,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:442",
+      "name": "Luxembourg",
+      "level": "country",
+      "code": "442",
+      "iso3": "LUX",
+      "anchor": {
+        "latitude": 49.61,
+        "longitude": 6.1296,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:446",
+      "name": "Macao SAR, China",
+      "level": "country",
+      "code": "446",
+      "iso3": "MAC",
+      "anchor": {
+        "latitude": 22.1667,
+        "longitude": 113.55,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:450",
+      "name": "Madagascar",
+      "level": "country",
+      "code": "450",
+      "iso3": "MDG",
+      "anchor": {
+        "latitude": -20.4667,
+        "longitude": 45.7167,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:454",
+      "name": "Malawi",
+      "level": "country",
+      "code": "454",
+      "iso3": "MWI",
+      "anchor": {
+        "latitude": -13.9899,
+        "longitude": 33.7703,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:458",
+      "name": "Malaysia",
+      "level": "country",
+      "code": "458",
+      "iso3": "MYS",
+      "anchor": {
+        "latitude": 3.12433,
+        "longitude": 101.684,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:462",
+      "name": "Maldives",
+      "level": "country",
+      "code": "462",
+      "iso3": "MDV",
+      "anchor": {
+        "latitude": 4.1742,
+        "longitude": 73.5109,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:466",
+      "name": "Mali",
+      "level": "country",
+      "code": "466",
+      "iso3": "MLI",
+      "anchor": {
+        "latitude": 13.5667,
+        "longitude": -7.50034,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:470",
+      "name": "Malta",
+      "level": "country",
+      "code": "470",
+      "iso3": "MLT",
+      "anchor": {
+        "latitude": 35.9042,
+        "longitude": 14.5189,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:584",
+      "name": "Marshall Islands",
+      "level": "country",
+      "code": "584",
+      "iso3": "MHL",
+      "anchor": {
+        "latitude": 7.11046,
+        "longitude": 171.135,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:474",
+      "name": "Martinique",
+      "level": "country",
+      "code": "474",
+      "iso3": "MTQ",
+      "anchor": null
+    },
+    {
+      "id": "country:478",
+      "name": "Mauritania",
+      "level": "country",
+      "code": "478",
+      "iso3": "MRT",
+      "anchor": {
+        "latitude": 18.2367,
+        "longitude": -15.9824,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:480",
+      "name": "Mauritius",
+      "level": "country",
+      "code": "480",
+      "iso3": "MUS",
+      "anchor": {
+        "latitude": -20.1605,
+        "longitude": 57.4977,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:175",
+      "name": "Mayotte",
+      "level": "country",
+      "code": "175",
+      "iso3": "MYT",
+      "anchor": null
+    },
+    {
+      "id": "country:484",
+      "name": "Mexico",
+      "level": "country",
+      "code": "484",
+      "iso3": "MEX",
+      "anchor": {
+        "latitude": 19.427,
+        "longitude": -99.1276,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:583",
+      "name": "Micronesia, Fed. Sts.",
+      "level": "country",
+      "code": "583",
+      "iso3": "FSM",
+      "anchor": {
+        "latitude": 6.91771,
+        "longitude": 158.185,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:498",
+      "name": "Moldova",
+      "level": "country",
+      "code": "498",
+      "iso3": "MDA",
+      "anchor": {
+        "latitude": 47.0167,
+        "longitude": 28.8497,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:492",
+      "name": "Monaco",
+      "level": "country",
+      "code": "492",
+      "iso3": "MCO",
+      "anchor": {
+        "latitude": 43.7325,
+        "longitude": 7.41891,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:496",
+      "name": "Mongolia",
+      "level": "country",
+      "code": "496",
+      "iso3": "MNG",
+      "anchor": {
+        "latitude": 47.9129,
+        "longitude": 106.937,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:499",
+      "name": "Montenegro",
+      "level": "country",
+      "code": "499",
+      "iso3": "MNE",
+      "anchor": {
+        "latitude": 42.4602,
+        "longitude": 19.2595,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:500",
+      "name": "Montserrat",
+      "level": "country",
+      "code": "500",
+      "iso3": "MSR",
+      "anchor": null
+    },
+    {
+      "id": "country:504",
+      "name": "Morocco",
+      "level": "country",
+      "code": "504",
+      "iso3": "MAR",
+      "anchor": {
+        "latitude": 33.9905,
+        "longitude": -6.8704,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:508",
+      "name": "Mozambique",
+      "level": "country",
+      "code": "508",
+      "iso3": "MOZ",
+      "anchor": {
+        "latitude": -25.9664,
+        "longitude": 32.5713,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:104",
+      "name": "Myanmar",
+      "level": "country",
+      "code": "104",
+      "iso3": "MMR",
+      "anchor": {
+        "latitude": 21.914,
+        "longitude": 95.9562,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:516",
+      "name": "Namibia",
+      "level": "country",
+      "code": "516",
+      "iso3": "NAM",
+      "anchor": {
+        "latitude": -22.5648,
+        "longitude": 17.0931,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:520",
+      "name": "Naoero",
+      "level": "country",
+      "code": "520",
+      "iso3": "NRU",
+      "anchor": {
+        "latitude": -0.5477,
+        "longitude": 166.920867,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:524",
+      "name": "Nepal",
+      "level": "country",
+      "code": "524",
+      "iso3": "NPL",
+      "anchor": {
+        "latitude": 27.6939,
+        "longitude": 85.3157,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:528",
+      "name": "Netherlands",
+      "level": "country",
+      "code": "528",
+      "iso3": "NLD",
+      "anchor": {
+        "latitude": 52.3738,
+        "longitude": 4.89095,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:540",
+      "name": "New Caledonia",
+      "level": "country",
+      "code": "540",
+      "iso3": "NCL",
+      "anchor": {
+        "latitude": -22.2677,
+        "longitude": 166.464,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:554",
+      "name": "New Zealand",
+      "level": "country",
+      "code": "554",
+      "iso3": "NZL",
+      "anchor": {
+        "latitude": -41.2865,
+        "longitude": 174.776,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:558",
+      "name": "Nicaragua",
+      "level": "country",
+      "code": "558",
+      "iso3": "NIC",
+      "anchor": {
+        "latitude": 12.1475,
+        "longitude": -86.2734,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:562",
+      "name": "Niger",
+      "level": "country",
+      "code": "562",
+      "iso3": "NER",
+      "anchor": {
+        "latitude": 13.514,
+        "longitude": 2.1073,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:566",
+      "name": "Nigeria",
+      "level": "country",
+      "code": "566",
+      "iso3": "NGA",
+      "anchor": {
+        "latitude": 9.05804,
+        "longitude": 7.48906,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:570",
+      "name": "Niue",
+      "level": "country",
+      "code": "570",
+      "iso3": "NIU",
+      "anchor": null
+    },
+    {
+      "id": "country:807",
+      "name": "North Macedonia",
+      "level": "country",
+      "code": "807",
+      "iso3": "MKD",
+      "anchor": {
+        "latitude": 42.0024,
+        "longitude": 21.4361,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:580",
+      "name": "Northern Mariana Islands",
+      "level": "country",
+      "code": "580",
+      "iso3": "MNP",
+      "anchor": {
+        "latitude": 15.1935,
+        "longitude": 145.765,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:578",
+      "name": "Norway",
+      "level": "country",
+      "code": "578",
+      "iso3": "NOR",
+      "anchor": {
+        "latitude": 59.9138,
+        "longitude": 10.7387,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:512",
+      "name": "Oman",
+      "level": "country",
+      "code": "512",
+      "iso3": "OMN",
+      "anchor": {
+        "latitude": 23.6105,
+        "longitude": 58.5874,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:586",
+      "name": "Pakistan",
+      "level": "country",
+      "code": "586",
+      "iso3": "PAK",
+      "anchor": {
+        "latitude": 30.5167,
+        "longitude": 72.8,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:585",
+      "name": "Palau",
+      "level": "country",
+      "code": "585",
+      "iso3": "PLW",
+      "anchor": {
+        "latitude": 7.34194,
+        "longitude": 134.479,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:591",
+      "name": "Panama",
+      "level": "country",
+      "code": "591",
+      "iso3": "PAN",
+      "anchor": {
+        "latitude": 8.99427,
+        "longitude": -79.5188,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:598",
+      "name": "Papua New Guinea",
+      "level": "country",
+      "code": "598",
+      "iso3": "PNG",
+      "anchor": {
+        "latitude": -9.47357,
+        "longitude": 147.194,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:600",
+      "name": "Paraguay",
+      "level": "country",
+      "code": "600",
+      "iso3": "PRY",
+      "anchor": {
+        "latitude": -25.3005,
+        "longitude": -57.6362,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:604",
+      "name": "Peru",
+      "level": "country",
+      "code": "604",
+      "iso3": "PER",
+      "anchor": {
+        "latitude": -12.0931,
+        "longitude": -77.0465,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:608",
+      "name": "Philippines",
+      "level": "country",
+      "code": "608",
+      "iso3": "PHL",
+      "anchor": {
+        "latitude": 14.5515,
+        "longitude": 121.035,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:616",
+      "name": "Poland",
+      "level": "country",
+      "code": "616",
+      "iso3": "POL",
+      "anchor": {
+        "latitude": 52.26,
+        "longitude": 21.02,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:620",
+      "name": "Portugal",
+      "level": "country",
+      "code": "620",
+      "iso3": "PRT",
+      "anchor": {
+        "latitude": 38.7072,
+        "longitude": -9.13552,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:630",
+      "name": "Puerto Rico (US)",
+      "level": "country",
+      "code": "630",
+      "iso3": "PRI",
+      "anchor": {
+        "latitude": 18.23,
+        "longitude": -66.0,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:634",
+      "name": "Qatar",
+      "level": "country",
+      "code": "634",
+      "iso3": "QAT",
+      "anchor": {
+        "latitude": 25.2948,
+        "longitude": 51.5082,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:642",
+      "name": "Romania",
+      "level": "country",
+      "code": "642",
+      "iso3": "ROU",
+      "anchor": {
+        "latitude": 44.4479,
+        "longitude": 26.0979,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:643",
+      "name": "Russian Federation",
+      "level": "country",
+      "code": "643",
+      "iso3": "RUS",
+      "anchor": {
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:646",
+      "name": "Rwanda",
+      "level": "country",
+      "code": "646",
+      "iso3": "RWA",
+      "anchor": {
+        "latitude": -1.95325,
+        "longitude": 30.0587,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:638",
+      "name": "R\u00e9union",
+      "level": "country",
+      "code": "638",
+      "iso3": "REU",
+      "anchor": null
+    },
+    {
+      "id": "country:652",
+      "name": "Saint Barth\u00e9lemy",
+      "level": "country",
+      "code": "652",
+      "iso3": "BLM",
+      "anchor": null
+    },
+    {
+      "id": "country:654",
+      "name": "Saint Helena",
+      "level": "country",
+      "code": "654",
+      "iso3": "SHN",
+      "anchor": null
+    },
+    {
+      "id": "country:666",
+      "name": "Saint Pierre and Miquelon",
+      "level": "country",
+      "code": "666",
+      "iso3": "SPM",
+      "anchor": null
+    },
+    {
+      "id": "country:882",
+      "name": "Samoa",
+      "level": "country",
+      "code": "882",
+      "iso3": "WSM",
+      "anchor": {
+        "latitude": -13.8314,
+        "longitude": -171.752,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:674",
+      "name": "San Marino",
+      "level": "country",
+      "code": "674",
+      "iso3": "SMR",
+      "anchor": {
+        "latitude": 43.9322,
+        "longitude": 12.4486,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:678",
+      "name": "Sao Tome and Principe",
+      "level": "country",
+      "code": "678",
+      "iso3": "STP",
+      "anchor": {
+        "latitude": 0.20618,
+        "longitude": 6.6071,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:682",
+      "name": "Saudi Arabia",
+      "level": "country",
+      "code": "682",
+      "iso3": "SAU",
+      "anchor": {
+        "latitude": 24.6748,
+        "longitude": 46.6977,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:686",
+      "name": "Senegal",
+      "level": "country",
+      "code": "686",
+      "iso3": "SEN",
+      "anchor": {
+        "latitude": 14.7247,
+        "longitude": -17.4734,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:688",
+      "name": "Serbia",
+      "level": "country",
+      "code": "688",
+      "iso3": "SRB",
+      "anchor": {
+        "latitude": 44.8024,
+        "longitude": 20.4656,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:690",
+      "name": "Seychelles",
+      "level": "country",
+      "code": "690",
+      "iso3": "SYC",
+      "anchor": {
+        "latitude": -4.6309,
+        "longitude": 55.4466,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:694",
+      "name": "Sierra Leone",
+      "level": "country",
+      "code": "694",
+      "iso3": "SLE",
+      "anchor": {
+        "latitude": 8.4821,
+        "longitude": -13.2134,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:702",
+      "name": "Singapore",
+      "level": "country",
+      "code": "702",
+      "iso3": "SGP",
+      "anchor": {
+        "latitude": 1.28941,
+        "longitude": 103.85,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:534",
+      "name": "Sint Maarten (Dutch part)",
+      "level": "country",
+      "code": "534",
+      "iso3": "SXM",
+      "anchor": null
+    },
+    {
+      "id": "country:703",
+      "name": "Slovak Republic",
+      "level": "country",
+      "code": "703",
+      "iso3": "SVK",
+      "anchor": {
+        "latitude": 48.1484,
+        "longitude": 17.1073,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:705",
+      "name": "Slovenia",
+      "level": "country",
+      "code": "705",
+      "iso3": "SVN",
+      "anchor": {
+        "latitude": 46.0546,
+        "longitude": 14.5044,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:090",
+      "name": "Solomon Islands",
+      "level": "country",
+      "code": "090",
+      "iso3": "SLB",
+      "anchor": {
+        "latitude": -9.42676,
+        "longitude": 159.949,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:706",
+      "name": "Somalia, Fed. Rep.",
+      "level": "country",
+      "code": "706",
+      "iso3": "SOM",
+      "anchor": {
+        "latitude": 2.07515,
+        "longitude": 45.3254,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:710",
+      "name": "South Africa",
+      "level": "country",
+      "code": "710",
+      "iso3": "ZAF",
+      "anchor": {
+        "latitude": -25.746,
+        "longitude": 28.1871,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:728",
+      "name": "South Sudan",
+      "level": "country",
+      "code": "728",
+      "iso3": "SSD",
+      "anchor": {
+        "latitude": 4.85,
+        "longitude": 31.6,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:724",
+      "name": "Spain",
+      "level": "country",
+      "code": "724",
+      "iso3": "ESP",
+      "anchor": {
+        "latitude": 40.4167,
+        "longitude": -3.70327,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:144",
+      "name": "Sri Lanka",
+      "level": "country",
+      "code": "144",
+      "iso3": "LKA",
+      "anchor": {
+        "latitude": 6.92148,
+        "longitude": 79.8528,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:659",
+      "name": "St. Kitts and Nevis",
+      "level": "country",
+      "code": "659",
+      "iso3": "KNA",
+      "anchor": {
+        "latitude": 17.3,
+        "longitude": -62.7309,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:662",
+      "name": "St. Lucia",
+      "level": "country",
+      "code": "662",
+      "iso3": "LCA",
+      "anchor": {
+        "latitude": 14.0,
+        "longitude": -60.9832,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:663",
+      "name": "St. Martin (French part)",
+      "level": "country",
+      "code": "663",
+      "iso3": "MAF",
+      "anchor": null
+    },
+    {
+      "id": "country:670",
+      "name": "St. Vincent and the Grenadines",
+      "level": "country",
+      "code": "670",
+      "iso3": "VCT",
+      "anchor": {
+        "latitude": 13.2035,
+        "longitude": -61.2653,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:729",
+      "name": "Sudan",
+      "level": "country",
+      "code": "729",
+      "iso3": "SDN",
+      "anchor": {
+        "latitude": 15.5932,
+        "longitude": 32.5363,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:740",
+      "name": "Suriname",
+      "level": "country",
+      "code": "740",
+      "iso3": "SUR",
+      "anchor": {
+        "latitude": 5.8232,
+        "longitude": -55.1679,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:752",
+      "name": "Sweden",
+      "level": "country",
+      "code": "752",
+      "iso3": "SWE",
+      "anchor": {
+        "latitude": 59.3327,
+        "longitude": 18.0645,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:756",
+      "name": "Switzerland",
+      "level": "country",
+      "code": "756",
+      "iso3": "CHE",
+      "anchor": {
+        "latitude": 46.948,
+        "longitude": 7.44821,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:760",
+      "name": "Syrian Arab Republic",
+      "level": "country",
+      "code": "760",
+      "iso3": "SYR",
+      "anchor": {
+        "latitude": 33.5146,
+        "longitude": 36.3119,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:762",
+      "name": "Tajikistan",
+      "level": "country",
+      "code": "762",
+      "iso3": "TJK",
+      "anchor": {
+        "latitude": 38.5878,
+        "longitude": 68.7864,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:834",
+      "name": "Tanzania",
+      "level": "country",
+      "code": "834",
+      "iso3": "TZA",
+      "anchor": {
+        "latitude": -6.17486,
+        "longitude": 35.7382,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:764",
+      "name": "Thailand",
+      "level": "country",
+      "code": "764",
+      "iso3": "THA",
+      "anchor": {
+        "latitude": 13.7308,
+        "longitude": 100.521,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:626",
+      "name": "Timor-Leste",
+      "level": "country",
+      "code": "626",
+      "iso3": "TLS",
+      "anchor": {
+        "latitude": -8.56667,
+        "longitude": 125.567,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:768",
+      "name": "Togo",
+      "level": "country",
+      "code": "768",
+      "iso3": "TGO",
+      "anchor": {
+        "latitude": 6.1228,
+        "longitude": 1.2255,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:772",
+      "name": "Tokelau",
+      "level": "country",
+      "code": "772",
+      "iso3": "TKL",
+      "anchor": null
+    },
+    {
+      "id": "country:776",
+      "name": "Tonga",
+      "level": "country",
+      "code": "776",
+      "iso3": "TON",
+      "anchor": {
+        "latitude": -21.136,
+        "longitude": -175.216,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:780",
+      "name": "Trinidad and Tobago",
+      "level": "country",
+      "code": "780",
+      "iso3": "TTO",
+      "anchor": {
+        "latitude": 10.6596,
+        "longitude": -61.4789,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:788",
+      "name": "Tunisia",
+      "level": "country",
+      "code": "788",
+      "iso3": "TUN",
+      "anchor": {
+        "latitude": 36.7899,
+        "longitude": 10.21,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:792",
+      "name": "Turkiye",
+      "level": "country",
+      "code": "792",
+      "iso3": "TUR",
+      "anchor": {
+        "latitude": 39.7153,
+        "longitude": 32.3606,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:795",
+      "name": "Turkmenistan",
+      "level": "country",
+      "code": "795",
+      "iso3": "TKM",
+      "anchor": {
+        "latitude": 37.9509,
+        "longitude": 58.3794,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:796",
+      "name": "Turks and Caicos Islands",
+      "level": "country",
+      "code": "796",
+      "iso3": "TCA",
+      "anchor": {
+        "latitude": 21.4602778,
+        "longitude": -71.141389,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:798",
+      "name": "Tuvalu",
+      "level": "country",
+      "code": "798",
+      "iso3": "TUV",
+      "anchor": {
+        "latitude": -8.6314877,
+        "longitude": 179.089567,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:800",
+      "name": "Uganda",
+      "level": "country",
+      "code": "800",
+      "iso3": "UGA",
+      "anchor": {
+        "latitude": 0.314269,
+        "longitude": 32.5729,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:804",
+      "name": "Ukraine",
+      "level": "country",
+      "code": "804",
+      "iso3": "UKR",
+      "anchor": {
+        "latitude": 50.4536,
+        "longitude": 30.5038,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:784",
+      "name": "United Arab Emirates",
+      "level": "country",
+      "code": "784",
+      "iso3": "ARE",
+      "anchor": {
+        "latitude": 24.4764,
+        "longitude": 54.3705,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:826",
+      "name": "United Kingdom",
+      "level": "country",
+      "code": "826",
+      "iso3": "GBR",
+      "anchor": {
+        "latitude": 51.5002,
+        "longitude": -0.126236,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:840",
+      "name": "United States",
+      "level": "country",
+      "code": "840",
+      "iso3": "USA",
+      "anchor": {
+        "latitude": 38.8895,
+        "longitude": -77.032,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:858",
+      "name": "Uruguay",
+      "level": "country",
+      "code": "858",
+      "iso3": "URY",
+      "anchor": {
+        "latitude": -34.8941,
+        "longitude": -56.0675,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:860",
+      "name": "Uzbekistan",
+      "level": "country",
+      "code": "860",
+      "iso3": "UZB",
+      "anchor": {
+        "latitude": 41.3052,
+        "longitude": 69.269,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:548",
+      "name": "Vanuatu",
+      "level": "country",
+      "code": "548",
+      "iso3": "VUT",
+      "anchor": {
+        "latitude": -17.7404,
+        "longitude": 168.321,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:862",
+      "name": "Venezuela, RB",
+      "level": "country",
+      "code": "862",
+      "iso3": "VEN",
+      "anchor": {
+        "latitude": 9.08165,
+        "longitude": -69.8371,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:704",
+      "name": "Viet Nam",
+      "level": "country",
+      "code": "704",
+      "iso3": "VNM",
+      "anchor": {
+        "latitude": 21.0069,
+        "longitude": 105.825,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:850",
+      "name": "Virgin Islands (U.S.)",
+      "level": "country",
+      "code": "850",
+      "iso3": "VIR",
+      "anchor": {
+        "latitude": 18.3358,
+        "longitude": -64.8963,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:876",
+      "name": "Wallis and Futuna Islands",
+      "level": "country",
+      "code": "876",
+      "iso3": "WLF",
+      "anchor": null
+    },
+    {
+      "id": "country:275",
+      "name": "West Bank and Gaza",
+      "level": "country",
+      "code": "275",
+      "iso3": "PSE",
+      "anchor": null
+    },
+    {
+      "id": "country:732",
+      "name": "Western Sahara",
+      "level": "country",
+      "code": "732",
+      "iso3": "ESH",
+      "anchor": null
+    },
+    {
+      "id": "country:887",
+      "name": "Yemen, Rep.",
+      "level": "country",
+      "code": "887",
+      "iso3": "YEM",
+      "anchor": {
+        "latitude": 15.352,
+        "longitude": 44.2075,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:894",
+      "name": "Zambia",
+      "level": "country",
+      "code": "894",
+      "iso3": "ZMB",
+      "anchor": {
+        "latitude": -15.3982,
+        "longitude": 28.2937,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    },
+    {
+      "id": "country:716",
+      "name": "Zimbabwe",
+      "level": "country",
+      "code": "716",
+      "iso3": "ZWE",
+      "anchor": {
+        "latitude": -17.8312,
+        "longitude": 31.0672,
+        "method": "World Bank country metadata capital-city point",
+        "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+        "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+      }
+    }
+  ],
+  "total": 236,
+  "limit": 250,
+  "offset": 0
+}

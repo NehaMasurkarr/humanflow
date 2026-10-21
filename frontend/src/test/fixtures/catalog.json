@@ -1,0 +1,158 @@
+[
+  {
+    "id": "un_stock_2024",
+    "mode": "global",
+    "name": "UN DESA \u00b7 International migrant stock",
+    "provider": "UN DESA Population Division",
+    "observation_type": "stock",
+    "definition": "UN DESA 2024 edition; both sexes; mid-year stock",
+    "scope": "international",
+    "period_type": "point_in_time",
+    "periods": [
+      {
+        "year_start": 2024,
+        "year_end": 2024,
+        "label": "2024 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2020,
+        "year_end": 2020,
+        "label": "2020 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2015,
+        "year_end": 2015,
+        "label": "2015 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2010,
+        "year_end": 2010,
+        "label": "2010 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2005,
+        "year_end": 2005,
+        "label": "2005 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2000,
+        "year_end": 2000,
+        "label": "2000 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 1995,
+        "year_end": 1995,
+        "label": "1995 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 1990,
+        "year_end": 1990,
+        "label": "1990 \u00b7 mid-year stock"
+      }
+    ],
+    "measures": [
+      {
+        "id": "stock_persons",
+        "label": "Migrant stock",
+        "unit": "persons"
+      }
+    ],
+    "source_url": "https://www.un.org/development/desa/pd/content/international-migrant-stock",
+    "license": "CC BY 3.0 IGO",
+    "caveat": "Stocks count people residing abroad at mid-year; they are not annual migration flows.",
+    "batch_id": "0b5c4bf04f915617cbb337119fb7727dbf066c19c2e430a4215ebafb29ba7063",
+    "source_sha256": "0e10179d05186041a65cf5c6200943b2231701f9c1fd33cbbe21d23b8ea47316"
+  },
+  {
+    "id": "census_acs_2023",
+    "mode": "us",
+    "name": "Census ACS \u00b7 2023",
+    "provider": "US Census Bureau",
+    "observation_type": "flow",
+    "definition": "ACS 1-year; population age 1+; residence one year earlier; MOE at 90% confidence",
+    "scope": "us_domestic",
+    "period_type": "one_year_estimate",
+    "periods": [
+      {
+        "year_start": 2023,
+        "year_end": 2023,
+        "label": "2023 \u00b7 ACS 1-year estimate"
+      }
+    ],
+    "measures": [
+      {
+        "id": "acs_movers",
+        "label": "Estimated interstate movers",
+        "unit": "persons"
+      }
+    ],
+    "source_url": "https://www.census.gov/data/tables/time-series/demo/geographic-mobility/state-to-state-migration.html",
+    "license": "US government public-use data",
+    "caveat": "Survey estimates for age 1+; missing cells remain unavailable. MOE is at 90% confidence.",
+    "batch_id": "0b5c4bf04f915617cbb337119fb7727dbf066c19c2e430a4215ebafb29ba7063",
+    "source_sha256": "2e33a91e0838abaff67de49e4299dfba72d6a59b5018bdd28d4ae963d93dd987"
+  },
+  {
+    "id": "census_acs_2024",
+    "mode": "us",
+    "name": "Census ACS \u00b7 2024",
+    "provider": "US Census Bureau",
+    "observation_type": "flow",
+    "definition": "ACS 1-year; population age 1+; residence one year earlier; MOE at 90% confidence",
+    "scope": "us_domestic",
+    "period_type": "one_year_estimate",
+    "periods": [
+      {
+        "year_start": 2024,
+        "year_end": 2024,
+        "label": "2024 \u00b7 ACS 1-year estimate"
+      }
+    ],
+    "measures": [
+      {
+        "id": "acs_movers",
+        "label": "Estimated interstate movers",
+        "unit": "persons"
+      }
+    ],
+    "source_url": "https://www.census.gov/data/tables/time-series/demo/geographic-mobility/state-to-state-migration.html",
+    "license": "US government public-use data",
+    "caveat": "Survey estimates for age 1+; missing cells remain unavailable. MOE is at 90% confidence.",
+    "batch_id": "0b5c4bf04f915617cbb337119fb7727dbf066c19c2e430a4215ebafb29ba7063",
+    "source_sha256": "9fcbca6df66289bd13fa7b95ac07aaeaeb7adac448458ff09273f37f014c4c85"
+  },
+  {
+    "id": "irs_state_2223",
+    "mode": "us",
+    "name": "IRS SOI \u00b7 2022\u20132023",
+    "provider": "IRS Statistics of Income",
+    "observation_type": "flow",
+    "definition": "2022 to 2023 matched filing-year addresses; 2022-2023 matching revision; returns and covered individuals; suppression applies",
+    "scope": "us_domestic",
+    "period_type": "filing_year_transition",
+    "periods": [
+      {
+        "year_start": 2022,
+        "year_end": 2023,
+        "label": "2022 \u2192 2023 \u00b7 filing years"
+      }
+    ],
+    "measures": [
+      {
+        "id": "tax_individuals",
+        "label": "Individuals covered by matched returns",
+        "unit": "covered_individuals"
+      },
+      {
+        "id": "tax_returns",
+        "label": "Matched tax returns",
+        "unit": "returns"
+      }
+    ],
+    "source_url": "https://www.irs.gov/statistics/soi-tax-stats-migration-data-2022-2023",
+    "license": "US federal government work; credit requested",
+    "caveat": "Matched filing-year addresses, not all residents. Small corridors may be omitted; no complete net migration is inferred.",
+    "batch_id": "0b5c4bf04f915617cbb337119fb7727dbf066c19c2e430a4215ebafb29ba7063",
+    "source_sha256": "59d594df259ecb5b97ec832f8e4069bca4b8fce56e989d44ce511f3151332ceb"
+  }
+]

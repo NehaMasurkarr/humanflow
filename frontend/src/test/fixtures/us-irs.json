@@ -1,0 +1,132 @@
+{
+  "items": [
+    {
+      "id": "state:06>state:48",
+      "origin": {
+        "id": "state:06",
+        "name": "California",
+        "level": "state",
+        "code": "06",
+        "iso3": null,
+        "anchor": {
+          "latitude": 37.155177,
+          "longitude": -119.543418,
+          "method": "US Census 2024 Gazetteer state internal point",
+          "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+          "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+        }
+      },
+      "destination": {
+        "id": "state:48",
+        "name": "Texas",
+        "level": "state",
+        "code": "48",
+        "iso3": null,
+        "anchor": {
+          "latitude": 31.434703,
+          "longitude": -99.281824,
+          "method": "US Census 2024 Gazetteer state internal point",
+          "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+          "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+        }
+      },
+      "value": 82481,
+      "unit": "covered_individuals",
+      "measure": "tax_individuals",
+      "year_start": 2022,
+      "year_end": 2023,
+      "moe": null,
+      "source_row": "231"
+    },
+    {
+      "id": "state:36>state:34",
+      "origin": {
+        "id": "state:36",
+        "name": "New York",
+        "level": "state",
+        "code": "36",
+        "iso3": null,
+        "anchor": {
+          "latitude": 42.913397,
+          "longitude": -75.596272,
+          "method": "US Census 2024 Gazetteer state internal point",
+          "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+          "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+        }
+      },
+      "destination": {
+        "id": "state:34",
+        "name": "New Jersey",
+        "level": "state",
+        "code": "34",
+        "iso3": null,
+        "anchor": {
+          "latitude": 40.107274,
+          "longitude": -74.665201,
+          "method": "US Census 2024 Gazetteer state internal point",
+          "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+          "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+        }
+      },
+      "value": 73471,
+      "unit": "covered_individuals",
+      "measure": "tax_individuals",
+      "year_start": 2022,
+      "year_end": 2023,
+      "moe": null,
+      "source_row": "1798"
+    }
+  ],
+  "dataset": {
+    "id": "irs_state_2223",
+    "mode": "us",
+    "name": "IRS SOI \u00b7 2022\u20132023",
+    "provider": "IRS Statistics of Income",
+    "observation_type": "flow",
+    "definition": "2022 to 2023 matched filing-year addresses; 2022-2023 matching revision; returns and covered individuals; suppression applies",
+    "scope": "us_domestic",
+    "period_type": "filing_year_transition",
+    "periods": [
+      {
+        "year_start": 2022,
+        "year_end": 2023,
+        "label": "2022 \u2192 2023 \u00b7 filing years"
+      }
+    ],
+    "measures": [
+      {
+        "id": "tax_individuals",
+        "label": "Individuals covered by matched returns",
+        "unit": "covered_individuals"
+      },
+      {
+        "id": "tax_returns",
+        "label": "Matched tax returns",
+        "unit": "returns"
+      }
+    ],
+    "source_url": "https://www.irs.gov/statistics/soi-tax-stats-migration-data-2022-2023",
+    "license": "US federal government work; credit requested",
+    "caveat": "Matched filing-year addresses, not all residents. Small corridors may be omitted; no complete net migration is inferred.",
+    "batch_id": "0b5c4bf04f915617cbb337119fb7727dbf066c19c2e430a4215ebafb29ba7063",
+    "source_sha256": "59d594df259ecb5b97ec832f8e4069bca4b8fce56e989d44ce511f3151332ceb"
+  },
+  "period": {
+    "year_start": 2022,
+    "year_end": 2023,
+    "label": "2022 \u2192 2023 \u00b7 filing years"
+  },
+  "measure": {
+    "id": "tax_individuals",
+    "label": "Individuals covered by matched returns",
+    "unit": "covered_individuals"
+  },
+  "total": 2544,
+  "matching_observations": 2544,
+  "excluded_without_anchors": 0,
+  "unavailable_in_period": 0,
+  "limit": 2,
+  "offset": 0,
+  "max_value": 82481,
+  "anchor_disclaimer": "Representative geographic anchors; arcs show statistical relationships, not travel paths. Particle direction indicates origin to destination, not journeys in progress."
+}

@@ -1,0 +1,85 @@
+{
+  "items": [],
+  "dataset": {
+    "id": "un_stock_2024",
+    "mode": "global",
+    "name": "UN DESA \u00b7 International migrant stock",
+    "provider": "UN DESA Population Division",
+    "observation_type": "stock",
+    "definition": "UN DESA 2024 edition; both sexes; mid-year stock",
+    "scope": "international",
+    "period_type": "point_in_time",
+    "periods": [
+      {
+        "year_start": 2024,
+        "year_end": 2024,
+        "label": "2024 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2020,
+        "year_end": 2020,
+        "label": "2020 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2015,
+        "year_end": 2015,
+        "label": "2015 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2010,
+        "year_end": 2010,
+        "label": "2010 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2005,
+        "year_end": 2005,
+        "label": "2005 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2000,
+        "year_end": 2000,
+        "label": "2000 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 1995,
+        "year_end": 1995,
+        "label": "1995 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 1990,
+        "year_end": 1990,
+        "label": "1990 \u00b7 mid-year stock"
+      }
+    ],
+    "measures": [
+      {
+        "id": "stock_persons",
+        "label": "Migrant stock",
+        "unit": "persons"
+      }
+    ],
+    "source_url": "https://www.un.org/development/desa/pd/content/international-migrant-stock",
+    "license": "CC BY 3.0 IGO",
+    "caveat": "Stocks count people residing abroad at mid-year; they are not annual migration flows.",
+    "batch_id": "0b5c4bf04f915617cbb337119fb7727dbf066c19c2e430a4215ebafb29ba7063",
+    "source_sha256": "0e10179d05186041a65cf5c6200943b2231701f9c1fd33cbbe21d23b8ea47316"
+  },
+  "period": {
+    "year_start": 2024,
+    "year_end": 2024,
+    "label": "2024 \u00b7 mid-year stock"
+  },
+  "measure": {
+    "id": "stock_persons",
+    "label": "Migrant stock",
+    "unit": "persons"
+  },
+  "total": 0,
+  "matching_observations": 0,
+  "excluded_without_anchors": 0,
+  "unavailable_in_period": 0,
+  "limit": 48,
+  "offset": 0,
+  "max_value": null,
+  "anchor_disclaimer": "Representative geographic anchors; arcs show statistical relationships, not travel paths. Particle direction indicates origin to destination, not journeys in progress."
+}

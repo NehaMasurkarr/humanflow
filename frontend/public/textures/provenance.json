@@ -1,0 +1,46 @@
+{
+  "textures": [
+    {
+      "file": "earth-day.jpg",
+      "source_url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/december/world.topo.bathy.200412.3x5400x2700.jpg",
+      "source_page": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-topography-bathymetry/",
+      "credit": "NASA Earth Observatory; Blue Marble Next Generation (December 2004), Reto St\u00f6ckli / NASA Goddard Space Flight Center; bathymetry GEBCO",
+      "license": "NASA imagery use under NASA Images and Media Usage Guidelines (educational/informational display); attribution supplied; no NASA endorsement implied.",
+      "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "projection": "Equirectangular; longitude -180 to 180 left-to-right; latitude 90 to -90 top-to-bottom",
+      "original_dimensions": [
+        5400,
+        2700
+      ],
+      "delivered_dimensions": [
+        4096,
+        2048
+      ],
+      "original_sha256": "a9f0088972dee0254610af851c4d6838ca3f2cf79176987e0a5713e2c15ec042",
+      "delivered_sha256": "d42aa2601da82b3b61a9c77d4fc461d5738ce8621581b06be65bebe103c2c3b1",
+      "delivered_bytes": 1668114,
+      "transformation": "Resized with macOS sips -z 2048 4096; JPEG re-encoded, no color or geography edits."
+    },
+    {
+      "file": "earth-night.jpg",
+      "source_url": "https://eoimages.gsfc.nasa.gov/images/imagerecords/144000/144898/BlackMarble_2016_01deg.jpg",
+      "source_page": "https://visibleearth.nasa.gov/images/144898/earth-at-night-black-marble-2016-color-maps",
+      "credit": "NASA Earth Observatory; Earth at Night (Black Marble), 2016; NASA Goddard Space Flight Center",
+      "license": "NASA imagery use under NASA Images and Media Usage Guidelines (educational/informational display); attribution supplied; no NASA endorsement implied.",
+      "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "projection": "Equirectangular; longitude -180 to 180 left-to-right; latitude 90 to -90 top-to-bottom",
+      "original_dimensions": [
+        3600,
+        1800
+      ],
+      "delivered_dimensions": [
+        3600,
+        1800
+      ],
+      "original_sha256": "d87de751a264e4f8ff69c68de5dab9606daee87a6f15ae743c93200743bd7ec1",
+      "delivered_sha256": "d87de751a264e4f8ff69c68de5dab9606daee87a6f15ae743c93200743bd7ec1",
+      "delivered_bytes": 779638,
+      "transformation": "Byte-for-byte copy; no transformation."
+    }
+  ]
+}

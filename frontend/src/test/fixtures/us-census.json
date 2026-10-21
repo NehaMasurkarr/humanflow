@@ -1,0 +1,127 @@
+{
+  "items": [
+    {
+      "id": "state:06>state:48",
+      "origin": {
+        "id": "state:06",
+        "name": "California",
+        "level": "state",
+        "code": "06",
+        "iso3": null,
+        "anchor": {
+          "latitude": 37.155177,
+          "longitude": -119.543418,
+          "method": "US Census 2024 Gazetteer state internal point",
+          "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+          "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+        }
+      },
+      "destination": {
+        "id": "state:48",
+        "name": "Texas",
+        "level": "state",
+        "code": "48",
+        "iso3": null,
+        "anchor": {
+          "latitude": 31.434703,
+          "longitude": -99.281824,
+          "method": "US Census 2024 Gazetteer state internal point",
+          "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+          "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+        }
+      },
+      "value": 77161,
+      "unit": "persons",
+      "measure": "acs_movers",
+      "year_start": 2024,
+      "year_end": 2024,
+      "moe": 9059.0,
+      "source_row": "2335"
+    },
+    {
+      "id": "state:36>state:34",
+      "origin": {
+        "id": "state:36",
+        "name": "New York",
+        "level": "state",
+        "code": "36",
+        "iso3": null,
+        "anchor": {
+          "latitude": 42.913397,
+          "longitude": -75.596272,
+          "method": "US Census 2024 Gazetteer state internal point",
+          "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+          "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+        }
+      },
+      "destination": {
+        "id": "state:34",
+        "name": "New Jersey",
+        "level": "state",
+        "code": "34",
+        "iso3": null,
+        "anchor": {
+          "latitude": 40.107274,
+          "longitude": -74.665201,
+          "method": "US Census 2024 Gazetteer state internal point",
+          "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+          "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+        }
+      },
+      "value": 56799,
+      "unit": "persons",
+      "measure": "acs_movers",
+      "year_start": 2024,
+      "year_end": 2024,
+      "moe": 8244.0,
+      "source_row": "1661"
+    }
+  ],
+  "dataset": {
+    "id": "census_acs_2024",
+    "mode": "us",
+    "name": "Census ACS \u00b7 2024",
+    "provider": "US Census Bureau",
+    "observation_type": "flow",
+    "definition": "ACS 1-year; population age 1+; residence one year earlier; MOE at 90% confidence",
+    "scope": "us_domestic",
+    "period_type": "one_year_estimate",
+    "periods": [
+      {
+        "year_start": 2024,
+        "year_end": 2024,
+        "label": "2024 \u00b7 ACS 1-year estimate"
+      }
+    ],
+    "measures": [
+      {
+        "id": "acs_movers",
+        "label": "Estimated interstate movers",
+        "unit": "persons"
+      }
+    ],
+    "source_url": "https://www.census.gov/data/tables/time-series/demo/geographic-mobility/state-to-state-migration.html",
+    "license": "US government public-use data",
+    "caveat": "Survey estimates for age 1+; missing cells remain unavailable. MOE is at 90% confidence.",
+    "batch_id": "0b5c4bf04f915617cbb337119fb7727dbf066c19c2e430a4215ebafb29ba7063",
+    "source_sha256": "9fcbca6df66289bd13fa7b95ac07aaeaeb7adac448458ff09273f37f014c4c85"
+  },
+  "period": {
+    "year_start": 2024,
+    "year_end": 2024,
+    "label": "2024 \u00b7 ACS 1-year estimate"
+  },
+  "measure": {
+    "id": "acs_movers",
+    "label": "Estimated interstate movers",
+    "unit": "persons"
+  },
+  "total": 2295,
+  "matching_observations": 2295,
+  "excluded_without_anchors": 0,
+  "unavailable_in_period": 255,
+  "limit": 2,
+  "offset": 0,
+  "max_value": 77161,
+  "anchor_disclaimer": "Representative geographic anchors; arcs show statistical relationships, not travel paths. Particle direction indicates origin to destination, not journeys in progress."
+}

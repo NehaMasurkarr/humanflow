@@ -1,0 +1,162 @@
+{
+  "items": [
+    {
+      "id": "country:484>country:840",
+      "origin": {
+        "id": "country:484",
+        "name": "Mexico",
+        "level": "country",
+        "code": "484",
+        "iso3": "MEX",
+        "anchor": {
+          "latitude": 19.427,
+          "longitude": -99.1276,
+          "method": "World Bank country metadata capital-city point",
+          "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+          "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+        }
+      },
+      "destination": {
+        "id": "country:840",
+        "name": "United States",
+        "level": "country",
+        "code": "840",
+        "iso3": "USA",
+        "anchor": {
+          "latitude": 38.8895,
+          "longitude": -77.032,
+          "method": "World Bank country metadata capital-city point",
+          "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+          "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+        }
+      },
+      "value": 11177052,
+      "unit": "persons",
+      "measure": "stock_persons",
+      "year_start": 2020,
+      "year_end": 2020,
+      "moe": null,
+      "source_row": "26161"
+    },
+    {
+      "id": "country:760>country:792",
+      "origin": {
+        "id": "country:760",
+        "name": "Syrian Arab Republic",
+        "level": "country",
+        "code": "760",
+        "iso3": "SYR",
+        "anchor": {
+          "latitude": 33.5146,
+          "longitude": 36.3119,
+          "method": "World Bank country metadata capital-city point",
+          "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+          "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+        }
+      },
+      "destination": {
+        "id": "country:792",
+        "name": "Turkiye",
+        "level": "country",
+        "code": "792",
+        "iso3": "TUR",
+        "anchor": {
+          "latitude": 39.7153,
+          "longitude": 32.3606,
+          "method": "World Bank country metadata capital-city point",
+          "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+          "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+        }
+      },
+      "value": 3830526,
+      "unit": "persons",
+      "measure": "stock_persons",
+      "year_start": 2020,
+      "year_end": 2020,
+      "moe": null,
+      "source_row": "13728"
+    }
+  ],
+  "dataset": {
+    "id": "un_stock_2024",
+    "mode": "global",
+    "name": "UN DESA \u00b7 International migrant stock",
+    "provider": "UN DESA Population Division",
+    "observation_type": "stock",
+    "definition": "UN DESA 2024 edition; both sexes; mid-year stock",
+    "scope": "international",
+    "period_type": "point_in_time",
+    "periods": [
+      {
+        "year_start": 2024,
+        "year_end": 2024,
+        "label": "2024 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2020,
+        "year_end": 2020,
+        "label": "2020 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2015,
+        "year_end": 2015,
+        "label": "2015 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2010,
+        "year_end": 2010,
+        "label": "2010 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2005,
+        "year_end": 2005,
+        "label": "2005 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2000,
+        "year_end": 2000,
+        "label": "2000 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 1995,
+        "year_end": 1995,
+        "label": "1995 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 1990,
+        "year_end": 1990,
+        "label": "1990 \u00b7 mid-year stock"
+      }
+    ],
+    "measures": [
+      {
+        "id": "stock_persons",
+        "label": "Migrant stock",
+        "unit": "persons"
+      }
+    ],
+    "source_url": "https://www.un.org/development/desa/pd/content/international-migrant-stock",
+    "license": "CC BY 3.0 IGO",
+    "caveat": "Stocks count people residing abroad at mid-year; they are not annual migration flows.",
+    "batch_id": "0b5c4bf04f915617cbb337119fb7727dbf066c19c2e430a4215ebafb29ba7063",
+    "source_sha256": "0e10179d05186041a65cf5c6200943b2231701f9c1fd33cbbe21d23b8ea47316"
+  },
+  "period": {
+    "year_start": 2020,
+    "year_end": 2020,
+    "label": "2020 \u00b7 mid-year stock"
+  },
+  "measure": {
+    "id": "stock_persons",
+    "label": "Migrant stock",
+    "unit": "persons"
+  },
+  "total": 8886,
+  "matching_observations": 9348,
+  "excluded_without_anchors": 462,
+  "unavailable_in_period": 0,
+  "limit": 2,
+  "offset": 0,
+  "max_value": 11177052,
+  "anchor_disclaimer": "Representative geographic anchors; arcs show statistical relationships, not travel paths. Particle direction indicates origin to destination, not journeys in progress."
+}

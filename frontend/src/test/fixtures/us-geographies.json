@@ -1,0 +1,721 @@
+{
+  "items": [
+    {
+      "id": "state:01",
+      "name": "Alabama",
+      "level": "state",
+      "code": "01",
+      "iso3": null,
+      "anchor": {
+        "latitude": 32.739579,
+        "longitude": -86.843447,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:02",
+      "name": "Alaska",
+      "level": "state",
+      "code": "02",
+      "iso3": null,
+      "anchor": {
+        "latitude": 63.347356,
+        "longitude": -152.839733,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:04",
+      "name": "Arizona",
+      "level": "state",
+      "code": "04",
+      "iso3": null,
+      "anchor": {
+        "latitude": 34.203936,
+        "longitude": -111.606345,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:05",
+      "name": "Arkansas",
+      "level": "state",
+      "code": "05",
+      "iso3": null,
+      "anchor": {
+        "latitude": 34.895526,
+        "longitude": -92.444626,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:06",
+      "name": "California",
+      "level": "state",
+      "code": "06",
+      "iso3": null,
+      "anchor": {
+        "latitude": 37.155177,
+        "longitude": -119.543418,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:08",
+      "name": "Colorado",
+      "level": "state",
+      "code": "08",
+      "iso3": null,
+      "anchor": {
+        "latitude": 38.993767,
+        "longitude": -105.508712,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:09",
+      "name": "Connecticut",
+      "level": "state",
+      "code": "09",
+      "iso3": null,
+      "anchor": {
+        "latitude": 41.579864,
+        "longitude": -72.746657,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:10",
+      "name": "Delaware",
+      "level": "state",
+      "code": "10",
+      "iso3": null,
+      "anchor": {
+        "latitude": 38.998566,
+        "longitude": -75.441644,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:11",
+      "name": "District of Columbia",
+      "level": "state",
+      "code": "11",
+      "iso3": null,
+      "anchor": {
+        "latitude": 38.904247,
+        "longitude": -77.016517,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:12",
+      "name": "Florida",
+      "level": "state",
+      "code": "12",
+      "iso3": null,
+      "anchor": {
+        "latitude": 28.398978,
+        "longitude": -82.5143,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:13",
+      "name": "Georgia",
+      "level": "state",
+      "code": "13",
+      "iso3": null,
+      "anchor": {
+        "latitude": 32.629579,
+        "longitude": -83.423511,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:15",
+      "name": "Hawaii",
+      "level": "state",
+      "code": "15",
+      "iso3": null,
+      "anchor": {
+        "latitude": 19.828167,
+        "longitude": -155.495042,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:16",
+      "name": "Idaho",
+      "level": "state",
+      "code": "16",
+      "iso3": null,
+      "anchor": {
+        "latitude": 44.348422,
+        "longitude": -114.558854,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:17",
+      "name": "Illinois",
+      "level": "state",
+      "code": "17",
+      "iso3": null,
+      "anchor": {
+        "latitude": 40.102875,
+        "longitude": -89.152611,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:18",
+      "name": "Indiana",
+      "level": "state",
+      "code": "18",
+      "iso3": null,
+      "anchor": {
+        "latitude": 39.901314,
+        "longitude": -86.291913,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:19",
+      "name": "Iowa",
+      "level": "state",
+      "code": "19",
+      "iso3": null,
+      "anchor": {
+        "latitude": 42.070024,
+        "longitude": -93.493347,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:20",
+      "name": "Kansas",
+      "level": "state",
+      "code": "20",
+      "iso3": null,
+      "anchor": {
+        "latitude": 38.498546,
+        "longitude": -98.38343,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:21",
+      "name": "Kentucky",
+      "level": "state",
+      "code": "21",
+      "iso3": null,
+      "anchor": {
+        "latitude": 37.533684,
+        "longitude": -85.29298,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:22",
+      "name": "Louisiana",
+      "level": "state",
+      "code": "22",
+      "iso3": null,
+      "anchor": {
+        "latitude": 30.708319,
+        "longitude": -91.604621,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:23",
+      "name": "Maine",
+      "level": "state",
+      "code": "23",
+      "iso3": null,
+      "anchor": {
+        "latitude": 45.409284,
+        "longitude": -68.666616,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:24",
+      "name": "Maryland",
+      "level": "state",
+      "code": "24",
+      "iso3": null,
+      "anchor": {
+        "latitude": 38.946658,
+        "longitude": -76.674494,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:25",
+      "name": "Massachusetts",
+      "level": "state",
+      "code": "25",
+      "iso3": null,
+      "anchor": {
+        "latitude": 42.15652,
+        "longitude": -71.489592,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:26",
+      "name": "Michigan",
+      "level": "state",
+      "code": "26",
+      "iso3": null,
+      "anchor": {
+        "latitude": 44.844177,
+        "longitude": -85.660491,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:27",
+      "name": "Minnesota",
+      "level": "state",
+      "code": "27",
+      "iso3": null,
+      "anchor": {
+        "latitude": 46.315957,
+        "longitude": -94.199604,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:28",
+      "name": "Mississippi",
+      "level": "state",
+      "code": "28",
+      "iso3": null,
+      "anchor": {
+        "latitude": 32.686471,
+        "longitude": -89.656138,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:29",
+      "name": "Missouri",
+      "level": "state",
+      "code": "29",
+      "iso3": null,
+      "anchor": {
+        "latitude": 38.35075,
+        "longitude": -92.456783,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:30",
+      "name": "Montana",
+      "level": "state",
+      "code": "30",
+      "iso3": null,
+      "anchor": {
+        "latitude": 47.051177,
+        "longitude": -109.634817,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:31",
+      "name": "Nebraska",
+      "level": "state",
+      "code": "31",
+      "iso3": null,
+      "anchor": {
+        "latitude": 41.543305,
+        "longitude": -99.811865,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:32",
+      "name": "Nevada",
+      "level": "state",
+      "code": "32",
+      "iso3": null,
+      "anchor": {
+        "latitude": 39.331093,
+        "longitude": -116.615147,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:33",
+      "name": "New Hampshire",
+      "level": "state",
+      "code": "33",
+      "iso3": null,
+      "anchor": {
+        "latitude": 43.672794,
+        "longitude": -71.584189,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:34",
+      "name": "New Jersey",
+      "level": "state",
+      "code": "34",
+      "iso3": null,
+      "anchor": {
+        "latitude": 40.107274,
+        "longitude": -74.665201,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:35",
+      "name": "New Mexico",
+      "level": "state",
+      "code": "35",
+      "iso3": null,
+      "anchor": {
+        "latitude": 34.434684,
+        "longitude": -106.131618,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:36",
+      "name": "New York",
+      "level": "state",
+      "code": "36",
+      "iso3": null,
+      "anchor": {
+        "latitude": 42.913397,
+        "longitude": -75.596272,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:37",
+      "name": "North Carolina",
+      "level": "state",
+      "code": "37",
+      "iso3": null,
+      "anchor": {
+        "latitude": 35.53971,
+        "longitude": -79.130864,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:38",
+      "name": "North Dakota",
+      "level": "state",
+      "code": "38",
+      "iso3": null,
+      "anchor": {
+        "latitude": 47.442174,
+        "longitude": -100.460826,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:39",
+      "name": "Ohio",
+      "level": "state",
+      "code": "39",
+      "iso3": null,
+      "anchor": {
+        "latitude": 40.41493,
+        "longitude": -82.711997,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:40",
+      "name": "Oklahoma",
+      "level": "state",
+      "code": "40",
+      "iso3": null,
+      "anchor": {
+        "latitude": 35.590081,
+        "longitude": -97.486779,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:41",
+      "name": "Oregon",
+      "level": "state",
+      "code": "41",
+      "iso3": null,
+      "anchor": {
+        "latitude": 43.971712,
+        "longitude": -120.622958,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:42",
+      "name": "Pennsylvania",
+      "level": "state",
+      "code": "42",
+      "iso3": null,
+      "anchor": {
+        "latitude": 40.904604,
+        "longitude": -77.827523,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:44",
+      "name": "Rhode Island",
+      "level": "state",
+      "code": "44",
+      "iso3": null,
+      "anchor": {
+        "latitude": 41.596485,
+        "longitude": -71.52649,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:45",
+      "name": "South Carolina",
+      "level": "state",
+      "code": "45",
+      "iso3": null,
+      "anchor": {
+        "latitude": 33.874178,
+        "longitude": -80.854264,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:46",
+      "name": "South Dakota",
+      "level": "state",
+      "code": "46",
+      "iso3": null,
+      "anchor": {
+        "latitude": 44.446796,
+        "longitude": -100.238176,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:47",
+      "name": "Tennessee",
+      "level": "state",
+      "code": "47",
+      "iso3": null,
+      "anchor": {
+        "latitude": 35.85846,
+        "longitude": -86.349634,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:48",
+      "name": "Texas",
+      "level": "state",
+      "code": "48",
+      "iso3": null,
+      "anchor": {
+        "latitude": 31.434703,
+        "longitude": -99.281824,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:49",
+      "name": "Utah",
+      "level": "state",
+      "code": "49",
+      "iso3": null,
+      "anchor": {
+        "latitude": 39.334993,
+        "longitude": -111.656333,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:50",
+      "name": "Vermont",
+      "level": "state",
+      "code": "50",
+      "iso3": null,
+      "anchor": {
+        "latitude": 44.058954,
+        "longitude": -72.671017,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:51",
+      "name": "Virginia",
+      "level": "state",
+      "code": "51",
+      "iso3": null,
+      "anchor": {
+        "latitude": 37.522251,
+        "longitude": -78.668194,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:53",
+      "name": "Washington",
+      "level": "state",
+      "code": "53",
+      "iso3": null,
+      "anchor": {
+        "latitude": 47.407324,
+        "longitude": -120.5758,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:54",
+      "name": "West Virginia",
+      "level": "state",
+      "code": "54",
+      "iso3": null,
+      "anchor": {
+        "latitude": 38.647285,
+        "longitude": -80.618327,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:55",
+      "name": "Wisconsin",
+      "level": "state",
+      "code": "55",
+      "iso3": null,
+      "anchor": {
+        "latitude": 44.630907,
+        "longitude": -89.709392,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    },
+    {
+      "id": "state:56",
+      "name": "Wyoming",
+      "level": "state",
+      "code": "56",
+      "iso3": null,
+      "anchor": {
+        "latitude": 42.989659,
+        "longitude": -107.544392,
+        "method": "US Census 2024 Gazetteer state internal point",
+        "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+        "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+      }
+    }
+  ],
+  "total": 51,
+  "limit": 250,
+  "offset": 0
+}
