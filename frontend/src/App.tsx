@@ -8,7 +8,9 @@ import type {
   Mode,
 } from './lib/types'
 import './App.css'
+import './analytics/analytics.css'
 
+const AnalyticsDrawer = lazy(() => import('./analytics/AnalyticsDrawer'))
 const GlobeViewport = lazy(() => import('./globe/GlobeViewport'))
 const EMPTY_ROUTES: Corridor[] = []
 
@@ -47,6 +49,12 @@ export default function App() {
     null,
   )
   const [about, setAbout] = useState(false)
+  const [analyticsOpen, setAnalyticsOpen] = useState(false)
+  const closeAnalytics = useCallback(() => {
+    setAnalyticsOpen(false)
+    setMobilePanel('insights')
+    window.setTimeout(() => document.getElementById('open-analytics')?.focus(), 0)
+  }, [])
   const reducedMotion = useMediaQuery('(prefers-reduced-motion: reduce)')
   const mobile = useMediaQuery('(max-width: 760px)')
   const limit = lowPower ? 24 : mobile ? 32 : 48
@@ -516,7 +524,47 @@ export default function App() {
             )}
           </div>
         )}
+        <button
+          className="analytics-launch"
+          id="open-analytics"
+          aria-expanded={analyticsOpen}
+          aria-controls="migration-analytics"
+          disabled={!dataset}
+          onClick={() => {
+            setMobilePanel(null)
+            setAnalyticsOpen(true)
+          }}
+        >
+          Analytics <span aria-hidden="true">↗</span>
+        </button>
       </aside>
+
+      {analyticsOpen && dataset && (
+        <Suspense
+          fallback={
+            <div className="data-status" role="status">
+              Loading analytics interface…
+            </div>
+          }
+        >
+          <AnalyticsDrawer
+            key={`${mode}:${datasetId}:${measure}`}
+            dataset={dataset}
+            year={year}
+            measure={measure}
+            origin={origin}
+            destination={destination}
+            minimum={minimum}
+            selected={selected}
+            entities={entities}
+            onClose={closeAnalytics}
+            onYearChange={(nextYear) => {
+              setYear(nextYear)
+              clearSelection()
+            }}
+          />
+        </Suspense>
+      )}
 
       <div className="view-controls" aria-label="Globe controls">
         <button

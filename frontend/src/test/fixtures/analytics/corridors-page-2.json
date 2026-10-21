@@ -1,0 +1,356 @@
+{
+  "kind": "corridors",
+  "dataset": {
+    "id": "un_stock_2024",
+    "mode": "global",
+    "name": "UN DESA \u00b7 International migrant stock",
+    "provider": "UN DESA Population Division",
+    "observation_type": "stock",
+    "definition": "UN DESA 2024 edition; both sexes; mid-year stock",
+    "scope": "international",
+    "period_type": "point_in_time",
+    "periods": [
+      {
+        "year_start": 2024,
+        "year_end": 2024,
+        "label": "2024 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2020,
+        "year_end": 2020,
+        "label": "2020 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2015,
+        "year_end": 2015,
+        "label": "2015 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2010,
+        "year_end": 2010,
+        "label": "2010 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2005,
+        "year_end": 2005,
+        "label": "2005 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 2000,
+        "year_end": 2000,
+        "label": "2000 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 1995,
+        "year_end": 1995,
+        "label": "1995 \u00b7 mid-year stock"
+      },
+      {
+        "year_start": 1990,
+        "year_end": 1990,
+        "label": "1990 \u00b7 mid-year stock"
+      }
+    ],
+    "measures": [
+      {
+        "id": "stock_persons",
+        "label": "Migrant stock",
+        "unit": "persons"
+      }
+    ],
+    "source_url": "https://www.un.org/development/desa/pd/content/international-migrant-stock",
+    "license": "CC BY 3.0 IGO",
+    "caveat": "Stocks count people residing abroad at mid-year; they are not annual migration flows.",
+    "batch_id": "0b5c4bf04f915617cbb337119fb7727dbf066c19c2e430a4215ebafb29ba7063",
+    "source_sha256": "0e10179d05186041a65cf5c6200943b2231701f9c1fd33cbbe21d23b8ea47316"
+  },
+  "sources": [
+    {
+      "id": "un_stock_2024",
+      "mode": "global",
+      "name": "UN DESA \u00b7 International migrant stock",
+      "provider": "UN DESA Population Division",
+      "observation_type": "stock",
+      "definition": "UN DESA 2024 edition; both sexes; mid-year stock",
+      "scope": "international",
+      "period_type": "point_in_time",
+      "periods": [
+        {
+          "year_start": 2024,
+          "year_end": 2024,
+          "label": "2024 \u00b7 mid-year stock"
+        },
+        {
+          "year_start": 2020,
+          "year_end": 2020,
+          "label": "2020 \u00b7 mid-year stock"
+        },
+        {
+          "year_start": 2015,
+          "year_end": 2015,
+          "label": "2015 \u00b7 mid-year stock"
+        },
+        {
+          "year_start": 2010,
+          "year_end": 2010,
+          "label": "2010 \u00b7 mid-year stock"
+        },
+        {
+          "year_start": 2005,
+          "year_end": 2005,
+          "label": "2005 \u00b7 mid-year stock"
+        },
+        {
+          "year_start": 2000,
+          "year_end": 2000,
+          "label": "2000 \u00b7 mid-year stock"
+        },
+        {
+          "year_start": 1995,
+          "year_end": 1995,
+          "label": "1995 \u00b7 mid-year stock"
+        },
+        {
+          "year_start": 1990,
+          "year_end": 1990,
+          "label": "1990 \u00b7 mid-year stock"
+        }
+      ],
+      "measures": [
+        {
+          "id": "stock_persons",
+          "label": "Migrant stock",
+          "unit": "persons"
+        }
+      ],
+      "source_url": "https://www.un.org/development/desa/pd/content/international-migrant-stock",
+      "license": "CC BY 3.0 IGO",
+      "caveat": "Stocks count people residing abroad at mid-year; they are not annual migration flows.",
+      "batch_id": "0b5c4bf04f915617cbb337119fb7727dbf066c19c2e430a4215ebafb29ba7063",
+      "source_sha256": "0e10179d05186041a65cf5c6200943b2231701f9c1fd33cbbe21d23b8ea47316"
+    }
+  ],
+  "period": {
+    "year_start": 2024,
+    "year_end": 2024,
+    "label": "2024 \u00b7 mid-year stock"
+  },
+  "measure": {
+    "id": "stock_persons",
+    "label": "Migrant stock",
+    "unit": "persons"
+  },
+  "indicator": null,
+  "items": [
+    {
+      "label": "West Bank and Gaza \u2192 Jordan",
+      "value": 2379525.0,
+      "observed": 1,
+      "unavailable": 0,
+      "dataset_id": "un_stock_2024",
+      "year_start": 2024,
+      "year_end": 2024,
+      "geography_id": null,
+      "origin_id": "country:275",
+      "destination_id": "country:400",
+      "incoming": null,
+      "outgoing": null,
+      "economic_value": null,
+      "economic_status": null,
+      "economic_source_row": null,
+      "moe": null,
+      "source_row": "13361"
+    },
+    {
+      "label": "Bangladesh \u2192 Saudi Arabia",
+      "value": 2362680.0,
+      "observed": 1,
+      "unavailable": 0,
+      "dataset_id": "un_stock_2024",
+      "year_start": 2024,
+      "year_end": 2024,
+      "geography_id": null,
+      "origin_id": "country:050",
+      "destination_id": "country:682",
+      "incoming": null,
+      "outgoing": null,
+      "economic_value": null,
+      "economic_status": null,
+      "economic_source_row": null,
+      "moe": null,
+      "source_row": "13593"
+    },
+    {
+      "label": "Bangladesh \u2192 India",
+      "value": 2293959.0,
+      "observed": 1,
+      "unavailable": 0,
+      "dataset_id": "un_stock_2024",
+      "year_start": 2024,
+      "year_end": 2024,
+      "geography_id": null,
+      "origin_id": "country:050",
+      "destination_id": "country:356",
+      "incoming": null,
+      "outgoing": null,
+      "economic_value": null,
+      "economic_status": null,
+      "economic_source_row": null,
+      "moe": null,
+      "source_row": "11716"
+    },
+    {
+      "label": "Philippines \u2192 United States",
+      "value": 2263697.0,
+      "observed": 1,
+      "unavailable": 0,
+      "dataset_id": "un_stock_2024",
+      "year_start": 2024,
+      "year_end": 2024,
+      "geography_id": null,
+      "origin_id": "country:608",
+      "destination_id": "country:840",
+      "incoming": null,
+      "outgoing": null,
+      "economic_value": null,
+      "economic_status": null,
+      "economic_source_row": null,
+      "moe": null,
+      "source_row": "26124"
+    },
+    {
+      "label": "Yemen, Rep. \u2192 Saudi Arabia",
+      "value": 1999619.0,
+      "observed": 1,
+      "unavailable": 0,
+      "dataset_id": "un_stock_2024",
+      "year_start": 2024,
+      "year_end": 2024,
+      "geography_id": null,
+      "origin_id": "country:887",
+      "destination_id": "country:682",
+      "incoming": null,
+      "outgoing": null,
+      "economic_value": null,
+      "economic_status": null,
+      "economic_source_row": null,
+      "moe": null,
+      "source_row": "13608"
+    },
+    {
+      "label": "India \u2192 Saudi Arabia",
+      "value": 1953496.0,
+      "observed": 1,
+      "unavailable": 0,
+      "dataset_id": "un_stock_2024",
+      "year_start": 2024,
+      "year_end": 2024,
+      "geography_id": null,
+      "origin_id": "country:356",
+      "destination_id": "country:682",
+      "incoming": null,
+      "outgoing": null,
+      "economic_value": null,
+      "economic_status": null,
+      "economic_source_row": null,
+      "moe": null,
+      "source_row": "13594"
+    },
+    {
+      "label": "Pakistan \u2192 Saudi Arabia",
+      "value": 1937044.0,
+      "observed": 1,
+      "unavailable": 0,
+      "dataset_id": "un_stock_2024",
+      "year_start": 2024,
+      "year_end": 2024,
+      "geography_id": null,
+      "origin_id": "country:586",
+      "destination_id": "country:682",
+      "incoming": null,
+      "outgoing": null,
+      "economic_value": null,
+      "economic_status": null,
+      "economic_source_row": null,
+      "moe": null,
+      "source_row": "13596"
+    },
+    {
+      "label": "Puerto Rico (US) \u2192 United States",
+      "value": 1924799.0,
+      "observed": 1,
+      "unavailable": 0,
+      "dataset_id": "un_stock_2024",
+      "year_start": 2024,
+      "year_end": 2024,
+      "geography_id": null,
+      "origin_id": "country:630",
+      "destination_id": "country:840",
+      "incoming": null,
+      "outgoing": null,
+      "economic_value": null,
+      "economic_status": null,
+      "economic_source_row": null,
+      "moe": null,
+      "source_row": "26155"
+    },
+    {
+      "label": "Afghanistan \u2192 Pakistan",
+      "value": 1923453.0,
+      "observed": 1,
+      "unavailable": 0,
+      "dataset_id": "un_stock_2024",
+      "year_start": 2024,
+      "year_end": 2024,
+      "geography_id": null,
+      "origin_id": "country:004",
+      "destination_id": "country:586",
+      "incoming": null,
+      "outgoing": null,
+      "economic_value": null,
+      "economic_status": null,
+      "economic_source_row": null,
+      "moe": null,
+      "source_row": "11884"
+    },
+    {
+      "label": "Poland \u2192 Germany",
+      "value": 1883559.0,
+      "observed": 1,
+      "unavailable": 0,
+      "dataset_id": "un_stock_2024",
+      "year_start": 2024,
+      "year_end": 2024,
+      "geography_id": null,
+      "origin_id": "country:616",
+      "destination_id": "country:276",
+      "incoming": null,
+      "outgoing": null,
+      "economic_value": null,
+      "economic_status": null,
+      "economic_source_row": null,
+      "moe": null,
+      "source_row": "20278"
+    }
+  ],
+  "total": 9348,
+  "limit": 10,
+  "offset": 10,
+  "observed": 9348,
+  "unavailable": 0,
+  "note": "Sums of reported corridor values, not complete population totals. Absent corridors are not zero; unavailable cells are excluded from sums. Analytics includes observations without globe anchors. Aggregated ACS margins of error are not calculated. Stocks count people residing abroad at mid-year; they are not annual migration flows.",
+  "filters": {
+    "mode": "global",
+    "dataset_id": "un_stock_2024",
+    "year": 2024,
+    "measure": "stock_persons",
+    "origin_id": null,
+    "destination_id": null,
+    "min_value": 0,
+    "side": "destination",
+    "geography_ids": [],
+    "indicator": "NY.GDP.PCAP.CD",
+    "limit": 10,
+    "offset": 10
+  }
+}

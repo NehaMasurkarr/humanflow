@@ -1,0 +1,94 @@
+[
+  {
+    "code": "NY.GDP.MKTP.CD",
+    "name": "GDP (current US$)",
+    "unit": "current_usd",
+    "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "provider": "World Bank WDI",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD",
+    "license": "CC BY 4.0 plus World Bank terms; credit underlying provider",
+    "source_sha256": "3209b87f1635daa1516bf47ac7aa334baee62371b6c063ba467f929700b53027",
+    "dataset_id": "wb_ny_gdp_mktp_cd",
+    "batch_id": "0b5c4bf04f915617cbb337119fb7727dbf066c19c2e430a4215ebafb29ba7063"
+  },
+  {
+    "code": "NY.GDP.PCAP.CD",
+    "name": "GDP per capita (current US$)",
+    "unit": "current_usd_per_person",
+    "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "provider": "World Bank WDI",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD",
+    "license": "CC BY 4.0 plus World Bank terms; credit underlying provider",
+    "source_sha256": "729157673d6895454e84fc094a3fcfd2d71174193fab034360a7d83443e5b7bb",
+    "dataset_id": "wb_ny_gdp_pcap_cd",
+    "batch_id": "0b5c4bf04f915617cbb337119fb7727dbf066c19c2e430a4215ebafb29ba7063"
+  },
+  {
+    "code": "SL.UEM.TOTL.ZS",
+    "name": "Unemployment (% of labor force; modeled ILO estimate)",
+    "unit": "percent_labor_force",
+    "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "provider": "World Bank WDI",
+    "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
+    "license": "CC BY 4.0 plus World Bank terms; credit underlying provider",
+    "source_sha256": "bce9a01186551121c19382c6f292770d3dd220d358e2349d1c061c78c5c2de19",
+    "dataset_id": "wb_sl_uem_totl_zs",
+    "batch_id": "0b5c4bf04f915617cbb337119fb7727dbf066c19c2e430a4215ebafb29ba7063"
+  },
+  {
+    "code": "SP.POP.TOTL",
+    "name": "Population, total",
+    "unit": "persons",
+    "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "provider": "World Bank WDI",
+    "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+    "license": "CC BY 4.0 plus World Bank terms; credit underlying provider",
+    "source_sha256": "2b3651511d0a48dce6cf6af5b7ca1a43aacffdf26be844f4d41974f426721e5a",
+    "dataset_id": "wb_sp_pop_totl",
+    "batch_id": "0b5c4bf04f915617cbb337119fb7727dbf066c19c2e430a4215ebafb29ba7063"
+  }
+]

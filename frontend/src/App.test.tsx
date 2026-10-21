@@ -11,6 +11,9 @@ import olderPage from './test/fixtures/global-2020.json'
 import censusPage from './test/fixtures/us-census.json'
 import irsPage from './test/fixtures/us-irs.json'
 import emptyPage from './test/fixtures/empty.json'
+import analyticsTrends from './test/fixtures/analytics/trends.json'
+
+vi.mock('./analytics/Chart', () => ({ default: () => <div>Analytics chart loaded</div> }))
 
 vi.mock('./globe/GlobeViewport', () => ({
   default: ({
@@ -32,6 +35,7 @@ vi.mock('./globe/GlobeViewport', () => ({
 
 function responseFor(input: string | URL | Request) {
   const url = new URL(String(input), 'http://localhost')
+  if (url.pathname.endsWith('/analytics/trends')) return analyticsTrends
   if (url.pathname.endsWith('/datasets')) return catalog
   if (url.pathname.endsWith('/geographies'))
     return url.searchParams.get('mode') === 'us' ? usLocations : globalLocations
@@ -63,6 +67,19 @@ const navigation = () =>
   within(screen.getByRole('navigation', { name: 'Migration mode' }))
 
 describe('HumanFlow interactive exploration', () => {
+  it('loads analytics only on demand and restores focus when dismissed', async () => {
+    render(<App />)
+    await screen.findByText('corridors on screen')
+    expect(fetcher.mock.calls.some(([url]) => String(url).includes('/analytics/'))).toBe(false)
+    const launcher = screen.getByRole('button', { name: 'Analytics' })
+    await userEvent.click(launcher)
+    expect(await screen.findByRole('region', { name: 'Migration analytics' })).toBeInTheDocument()
+    await screen.findByText('Analytics chart loaded')
+    await userEvent.click(screen.getByRole('button', { name: 'Close analytics' }))
+    expect(screen.queryByRole('region', { name: 'Migration analytics' })).not.toBeInTheDocument()
+    await waitFor(() => expect(launcher).toHaveFocus())
+  })
+
   it('renders real stock values and opens route provenance from the globe', async () => {
     render(<App />)
     expect(await screen.findByText('corridors on screen')).toBeInTheDocument()
