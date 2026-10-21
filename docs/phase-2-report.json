@@ -1,0 +1,139 @@
+{
+  "analytics_checks": {
+    "acs_net_2023": {
+      "rows": 51,
+      "sum_of_net_estimates": 0
+    },
+    "acs_net_2024": {
+      "rows": 3
+    },
+    "country_comparison": {
+      "rows": 464
+    },
+    "county_top": {
+      "rows": 5
+    },
+    "economic_comparison": {
+      "rows": 217
+    },
+    "state_comparison": {
+      "rows": 102
+    },
+    "stock_top": {
+      "rows": 5
+    },
+    "stock_trend": {
+      "rows": 8
+    }
+  },
+  "batch_id": "0b5c4bf04f915617cbb337119fb7727dbf066c19c2e430a4215ebafb29ba7063",
+  "counts": {
+    "corridors": 65512,
+    "economic": 8680,
+    "geographies": 3431,
+    "migration": 192200
+  },
+  "geography_counts": {
+    "country": 236,
+    "county": 3144,
+    "state": 51
+  },
+  "postgresql_version": "17.10 (Homebrew)",
+  "repeat_load_already_loaded": true,
+  "sources": {
+    "census_acs_2023": {
+      "destinations": 51,
+      "excluded_candidate_cells": 102,
+      "missing": 0,
+      "note": "50 states + DC only; self/PR/island/foreign/total cells excluded; MOE is 90%",
+      "observed": 2550,
+      "origins": 51,
+      "raw_rows": 74,
+      "records": 2550,
+      "suppressed": 0
+    },
+    "census_acs_2024": {
+      "destinations": 51,
+      "excluded_candidate_cells": 258,
+      "missing": 255,
+      "note": "50 states + DC only; self/PR/island/foreign/total cells excluded; MOE is 90%",
+      "observed": 2295,
+      "origins": 51,
+      "raw_rows": 2824,
+      "records": 2550,
+      "suppressed": 0
+    },
+    "irs_county_2223": {
+      "destinations": 2766,
+      "excluded_nonmigrant_rows": 3143,
+      "excluded_summary_foreign_rows": 33601,
+      "missing": 0,
+      "note": "Outflow files only to avoid inflow double counting; AGI not imported; omitted corridors are not zero",
+      "observed": 107228,
+      "origins": 2842,
+      "raw_rows": 90358,
+      "records": 107228,
+      "suppressed": 0
+    },
+    "irs_state_2223": {
+      "destinations": 51,
+      "excluded_nonmigrant_rows": 51,
+      "excluded_summary_foreign_rows": 254,
+      "missing": 0,
+      "note": "Outflow files only to avoid inflow double counting; AGI not imported; omitted corridors are not zero",
+      "observed": 5088,
+      "origins": 51,
+      "raw_rows": 2849,
+      "records": 5088,
+      "suppressed": 0
+    },
+    "un_stock_2024": {
+      "destinations": 231,
+      "excluded_aggregate_rows": 18682,
+      "missing": 1,
+      "note": "Only published bilateral country/area rows; absence is not zero; both sexes only",
+      "observed": 74783,
+      "origins": 233,
+      "raw_rows": 28030,
+      "records": 74784,
+      "suppressed": 0
+    },
+    "wb_ny_gdp_mktp_cd": {
+      "excluded_aggregate_rows": 490,
+      "last_updated": "2026-10-08",
+      "missing": 81,
+      "observed": 2089,
+      "raw_rows": 2660,
+      "records": 2170,
+      "suppressed": 0
+    },
+    "wb_ny_gdp_pcap_cd": {
+      "excluded_aggregate_rows": 490,
+      "last_updated": "2026-10-08",
+      "missing": 81,
+      "observed": 2089,
+      "raw_rows": 2660,
+      "records": 2170,
+      "suppressed": 0
+    },
+    "wb_sl_uem_totl_zs": {
+      "excluded_aggregate_rows": 490,
+      "last_updated": "2026-10-08",
+      "missing": 309,
+      "observed": 1861,
+      "raw_rows": 2660,
+      "records": 2170,
+      "suppressed": 0
+    },
+    "wb_sp_pop_totl": {
+      "excluded_aggregate_rows": 490,
+      "last_updated": "2026-10-08",
+      "missing": 0,
+      "observed": 2170,
+      "raw_rows": 2660,
+      "records": 2170,
+      "suppressed": 0
+    }
+  },
+  "verified_date": "2026-10-21"
+}
