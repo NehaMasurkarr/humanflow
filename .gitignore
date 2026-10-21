@@ -35,3 +35,7 @@ coverage/
 build/
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# Local PostgreSQL cluster and runtime state
+data/postgres/
+data/postgres-socket/

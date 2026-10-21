@@ -1,0 +1,290 @@
+{
+  "census_acs_2023": {
+    "all_rows": true,
+    "file": "census_acs_2023.xlsx",
+    "original_snapshot": {
+      "bytes": 142123,
+      "filename": "State_to_State_Migration_Table_2023_T13.xlsx",
+      "final_url": "https://www2.census.gov/programs-surveys/demo/tables/geographic-mobility/2023/state-to-state-migration/State_to_State_Migration_Table_2023_T13.xlsx",
+      "retrieved_at": "2026-10-21T07:38:36.532960+00:00",
+      "sha256": "2e33a91e0838abaff67de49e4299dfba72d6a59b5018bdd28d4ae963d93dd987",
+      "url": "https://www2.census.gov/programs-surveys/demo/tables/geographic-mobility/2023/state-to-state-migration/State_to_State_Migration_Table_2023_T13.xlsx"
+    },
+    "sha256": "017a805480651b9c521f603d19a519a4a9836f162c0a393c4bd40edb518abeb2",
+    "source_sheet": "Table"
+  },
+  "census_acs_2024": {
+    "all_rows": true,
+    "file": "census_acs_2024.xlsx",
+    "original_snapshot": {
+      "bytes": 190028,
+      "filename": "State_to_State_Migration_Table_2024_T13.xlsx",
+      "final_url": "https://www2.census.gov/programs-surveys/demo/tables/geographic-mobility/2024/state-to-state-migration/State_to_State_Migration_Table_2024_T13.xlsx",
+      "retrieved_at": "2026-10-21T07:38:36.770312+00:00",
+      "sha256": "9fcbca6df66289bd13fa7b95ac07aaeaeb7adac448458ff09273f37f014c4c85",
+      "url": "https://www2.census.gov/programs-surveys/demo/tables/geographic-mobility/2024/state-to-state-migration/State_to_State_Migration_Table_2024_T13.xlsx"
+    },
+    "sha256": "098d106f1f2bde5bd2dcdf5c209ec74aba3cfb6e739e94f7dc99c4a8e9f8e4bc",
+    "source_sheet": "Table"
+  },
+  "census_geocodes_2023": {
+    "file": "census_geocodes_2023.xlsx",
+    "original_snapshot": {
+      "bytes": 1729934,
+      "filename": "all-geocodes-v2023.xlsx",
+      "final_url": "https://www2.census.gov/programs-surveys/popest/geographies/2023/all-geocodes-v2023.xlsx",
+      "retrieved_at": "2026-10-21T07:38:38.818379+00:00",
+      "sha256": "b6d1cbdfd93a5536f7f210cb959b2286b8594a715e49f8d51e14aabb4027c25d",
+      "url": "https://www2.census.gov/programs-surveys/popest/geographies/2023/all-geocodes-v2023.xlsx"
+    },
+    "sha256": "ba810611f32d1e8243a6f4de863e1d97f362b9193d7cd665a48f0f646a602fae",
+    "source_excel_rows": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      537,
+      717,
+      824,
+      1400,
+      1941,
+      2277,
+      2487,
+      2548,
+      2551,
+      3030,
+      3730,
+      3737,
+      3980,
+      6810,
+      8480,
+      9520,
+      11728,
+      12268,
+      12637,
+      13206,
+      13388,
+      13812,
+      15969,
+      19584,
+      19966,
+      21303,
+      21489,
+      22491,
+      22528,
+      22811,
+      23720,
+      23859,
+      25526,
+      26178,
+      28316,
+      30931,
+      31601,
+      31878,
+      35530,
+      35583,
+      35901,
+      37533,
+      37975,
+      39454,
+      39739,
+      40050,
+      40411,
+      40732,
+      41019,
+      43610
+    ]
+  },
+  "irs_county_2223": {
+    "file": "irs_county_2223.csv",
+    "original_snapshot": {
+      "bytes": 4584439,
+      "filename": "countyoutflow2223.csv",
+      "final_url": "https://www.irs.gov/pub/irs-soi/countyoutflow2223.csv",
+      "retrieved_at": "2026-10-21T07:38:38.315363+00:00",
+      "sha256": "364dba518f0db092515ccde03dda987815f6e54bcc8859640001e9185d4c106e",
+      "url": "https://www.irs.gov/pub/irs-soi/countyoutflow2223.csv"
+    },
+    "sha256": "f91b8406e6386ca9caef938f479e6e18c803aee99331817a985f7d2edf69bc92",
+    "source_csv_lines": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      16
+    ]
+  },
+  "irs_state_2223": {
+    "file": "irs_state_2223.csv",
+    "original_snapshot": {
+      "bytes": 100548,
+      "filename": "stateoutflow2223.csv",
+      "final_url": "https://www.irs.gov/pub/irs-soi/stateoutflow2223.csv",
+      "retrieved_at": "2026-10-21T07:38:37.090229+00:00",
+      "sha256": "59d594df259ecb5b97ec832f8e4069bca4b8fce56e989d44ce511f3151332ceb",
+      "url": "https://www.irs.gov/pub/irs-soi/stateoutflow2223.csv"
+    },
+    "sha256": "e47fefbea8512f2f49283e0a40a701e73f0e5daaa6fc8c49e4b8d37a04003142",
+    "source_csv_lines": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "un_stock_2024": {
+    "file": "un_stock_2024.xlsx",
+    "original_snapshot": {
+      "bytes": 6005287,
+      "filename": "undesa_pd_2024_ims_stock_by_sex_destination_and_origin.xlsx",
+      "final_url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2024_ims_stock_by_sex_destination_and_origin.xlsx",
+      "retrieved_at": "2026-10-21T07:38:36.045797+00:00",
+      "sha256": "0e10179d05186041a65cf5c6200943b2231701f9c1fd33cbbe21d23b8ea47316",
+      "url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2024_ims_stock_by_sex_destination_and_origin.xlsx"
+    },
+    "sha256": "8d68553dda18517864c60c35a6daa212ff828d607ca1247d486b31f9a94a091f",
+    "source_excel_rows": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      26072,
+      26116,
+      26161,
+      26173
+    ]
+  },
+  "wb_countries": {
+    "file": "wb_countries.json",
+    "filter": "USA, IND, WLD; metadata unchanged",
+    "original_snapshot": {
+      "bytes": 113954,
+      "filename": "wb_countries.json",
+      "final_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+      "retrieved_at": "2026-10-21T07:38:39.219216+00:00",
+      "sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce",
+      "url": "https://api.worldbank.org/v2/country?format=json&per_page=400"
+    },
+    "sha256": "880ede3eb377d6f3a43f5ede7422ca7d27695b73ef2359053939a76a29b8e2f4"
+  },
+  "wb_ny_gdp_mktp_cd": {
+    "file": "wb_ny_gdp_mktp_cd.json",
+    "filter": "USA, IND, WLD; metadata unchanged",
+    "original_snapshot": {
+      "bytes": 563150,
+      "filename": "NY.GDP.MKTP.CD",
+      "final_url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.CD?format=json&date=2015:2024&per_page=20000&source=2",
+      "retrieved_at": "2026-10-21T07:38:40.747608+00:00",
+      "sha256": "3209b87f1635daa1516bf47ac7aa334baee62371b6c063ba467f929700b53027",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.CD?format=json&date=2015:2024&per_page=20000&source=2"
+    },
+    "sha256": "b524d1a3e24a9936e043a1739b9ec3a49f87a8e1b161666771cd3daf7c06ed11"
+  },
+  "wb_ny_gdp_mktp_cd_metadata": {
+    "file": "wb_ny_gdp_mktp_cd_metadata.json",
+    "filter": "USA, IND, WLD; metadata unchanged",
+    "original_snapshot": {
+      "bytes": 938,
+      "filename": "NY.GDP.MKTP.CD",
+      "final_url": "https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.CD?format=json",
+      "retrieved_at": "2026-10-21T07:38:40.859237+00:00",
+      "sha256": "51cec1e144a5bad8d92238630c0a305e20116e86d34ad95c7c315ed166255b28",
+      "url": "https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.CD?format=json"
+    },
+    "sha256": "f5632b4df69ddc95e64588600d2e7addaec28ad5efd024db4d5c601956378ec7"
+  },
+  "wb_ny_gdp_pcap_cd": {
+    "file": "wb_ny_gdp_pcap_cd.json",
+    "filter": "USA, IND, WLD; metadata unchanged",
+    "original_snapshot": {
+      "bytes": 593597,
+      "filename": "NY.GDP.PCAP.CD",
+      "final_url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.CD?format=json&date=2015:2024&per_page=20000&source=2",
+      "retrieved_at": "2026-10-21T07:38:41.586595+00:00",
+      "sha256": "729157673d6895454e84fc094a3fcfd2d71174193fab034360a7d83443e5b7bb",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.CD?format=json&date=2015:2024&per_page=20000&source=2"
+    },
+    "sha256": "0b5d59f1214423321430b7c6c58f07daac994b65f6876a8b4158d9da9d6bc1a9"
+  },
+  "wb_ny_gdp_pcap_cd_metadata": {
+    "file": "wb_ny_gdp_pcap_cd_metadata.json",
+    "filter": "USA, IND, WLD; metadata unchanged",
+    "original_snapshot": {
+      "bytes": 1044,
+      "filename": "NY.GDP.PCAP.CD",
+      "final_url": "https://api.worldbank.org/v2/indicator/NY.GDP.PCAP.CD?format=json",
+      "retrieved_at": "2026-10-21T07:38:41.727216+00:00",
+      "sha256": "96520c3a22b1f9da1c7456349a6e70b1643db88d427671faced17cb8b9eaf907",
+      "url": "https://api.worldbank.org/v2/indicator/NY.GDP.PCAP.CD?format=json"
+    },
+    "sha256": "4a847f15b8cab3b625b4b4052167314563c8df63faf53008baca4f6aaed8d5fa"
+  },
+  "wb_sl_uem_totl_zs": {
+    "file": "wb_sl_uem_totl_zs.json",
+    "filter": "USA, IND, WLD; metadata unchanged",
+    "original_snapshot": {
+      "bytes": 674455,
+      "filename": "SL.UEM.TOTL.ZS",
+      "final_url": "https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS?format=json&date=2015:2024&per_page=20000&source=2",
+      "retrieved_at": "2026-10-21T07:38:42.922568+00:00",
+      "sha256": "bce9a01186551121c19382c6f292770d3dd220d358e2349d1c061c78c5c2de19",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS?format=json&date=2015:2024&per_page=20000&source=2"
+    },
+    "sha256": "28e63cef9b42fb77f89e5443449456972e45fd9056c66f2633477940578c74a3"
+  },
+  "wb_sl_uem_totl_zs_metadata": {
+    "file": "wb_sl_uem_totl_zs_metadata.json",
+    "filter": "USA, IND, WLD; metadata unchanged",
+    "original_snapshot": {
+      "bytes": 670,
+      "filename": "SL.UEM.TOTL.ZS",
+      "final_url": "https://api.worldbank.org/v2/indicator/SL.UEM.TOTL.ZS?format=json",
+      "retrieved_at": "2026-10-21T07:38:43.042557+00:00",
+      "sha256": "3ae370ed4bebba092338e94334c35add71490324ee57f1dfe81885dade51f52f",
+      "url": "https://api.worldbank.org/v2/indicator/SL.UEM.TOTL.ZS?format=json"
+    },
+    "sha256": "fe5d6814852a92fea3ae9af6f092f075d085298b5f2051f3f446165ebec767e3"
+  },
+  "wb_sp_pop_totl": {
+    "file": "wb_sp_pop_totl.json",
+    "filter": "USA, IND, WLD; metadata unchanged",
+    "original_snapshot": {
+      "bytes": 535195,
+      "filename": "SP.POP.TOTL",
+      "final_url": "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?format=json&date=2015:2024&per_page=20000&source=2",
+      "retrieved_at": "2026-10-21T07:38:39.825460+00:00",
+      "sha256": "2b3651511d0a48dce6cf6af5b7ca1a43aacffdf26be844f4d41974f426721e5a",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?format=json&date=2015:2024&per_page=20000&source=2"
+    },
+    "sha256": "e433c12f89c0338ab6116c5a68c2987d798cb4419e811b02bbb2fbdfa25e49a9"
+  },
+  "wb_sp_pop_totl_metadata": {
+    "file": "wb_sp_pop_totl_metadata.json",
+    "filter": "USA, IND, WLD; metadata unchanged",
+    "original_snapshot": {
+      "bytes": 1099,
+      "filename": "SP.POP.TOTL",
+      "final_url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL?format=json",
+      "retrieved_at": "2026-10-21T07:38:40.011950+00:00",
+      "sha256": "2f8491efc00bf2c0995112ff8e87aba69e5e9d22d0880b22f7e3a4ec757ba05c",
+      "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL?format=json"
+    },
+    "sha256": "7a4e1588bc4058675fe287ffee394823b01c29ccd1f5cc28216f9b7375098b69"
+  }
+}

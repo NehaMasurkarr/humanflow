@@ -1,0 +1,8 @@
+y1_statefips,y1_countyfips,y2_statefips,y2_countyfips,y2_state,y2_countyname,n1,n2,agi
+01,001,96,000,AL,Autauga County Total Migration-US and Foreign,1920,3869,118308
+01,001,97,000,AL,Autauga County Total Migration-US,1888,3759,115092
+01,001,97,001,AL,Autauga County Total Migration-Same State,1199,2247,63596
+01,001,97,003,AL,Autauga County Total Migration-Different State,689,1512,51496
+01,001,98,000,AL,Autauga County Total Migration-Foreign,32,110,3216
+01,001,01,001,AL,Autauga County Non-migrants,20045,43150,1531683
+01,001,01,003,AL,Baldwin County,25,47,1655
