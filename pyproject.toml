@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=75,<83"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "humanflow"
+version = "0.1.0"
+description = "Global and US migration analytics API"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi==0.156.4",
+  "uvicorn[standard]==0.54.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "httpx==0.28.1",
+  "pytest==9.1.1",
+  "ruff==0.17.1",
+]
+
+[tool.setuptools.packages.find]
+include = ["backend*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers --strict-config"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

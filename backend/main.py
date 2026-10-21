@@ -1,11 +1,19 @@
+"""FastAPI application entry point: uvicorn backend.main:app."""
+
 from fastapi import FastAPI
 
-app = FastAPI(
-    title="HumanFlow API",
-    description="Global and US Migration Analytics",
-    version="0.1.0",
-)
+from backend.api.health import router as health_router
 
-@app.get("/health")
-def health():
-    return {"status": "healthy", "project": "HumanFlow"}
+
+def create_app() -> FastAPI:
+    """Build an application with independent route registration."""
+    application = FastAPI(
+        title="HumanFlow API",
+        description="Global and US Migration Analytics",
+        version="0.1.0",
+    )
+    application.include_router(health_router)
+    return application
+
+
+app = create_app()

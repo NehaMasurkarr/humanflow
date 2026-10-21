@@ -23,3 +23,15 @@ dist/
 
 # IDE
 .vscode/
+# Checked-in environment templates
+!.env.example
+
+# Development artifacts
+.ruff_cache/
+.coverage
+htmlcov/
+coverage/
+*.egg-info/
+build/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
