@@ -1,0 +1,1 @@
+Genuine local /v1/heatmap responses captured from the locked full Phase 2 PostgreSQL batch. Each response preserves its filters, source hash, units, periods, and boundary provenance. These are frontend test fixtures, not replacement production data.

@@ -15,7 +15,9 @@ export default defineConfig({
     baseURL,
     browserName: 'chromium',
     launchOptions: {
-      args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader'],
+      args: process.platform === 'darwin'
+        ? ['--use-angle=metal']
+        : ['--use-angle=swiftshader', '--enable-unsafe-swiftshader'],
     },
     trace: 'retain-on-failure',
   },

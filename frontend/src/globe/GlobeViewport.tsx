@@ -37,6 +37,8 @@ export default function GlobeViewport(props: Omit<SceneProps, 'onReady'>) {
       className="globe-viewport"
       aria-label="Interactive Earth"
       data-ready={ready}
+      data-layer={props.viewLayer ?? 'arcs'}
+      data-heatmap-ready={!!props.heatmap}
     >
       <RenderBoundary>
         <Canvas

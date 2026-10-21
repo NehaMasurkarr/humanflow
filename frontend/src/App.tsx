@@ -7,6 +7,17 @@ import type {
   GeographyPage,
   Mode,
 } from './lib/types'
+import HeatmapControls from './heatmap/HeatmapControls'
+import HeatmapSummary, { GeographicDetail } from './heatmap/HeatmapSummary'
+import { legendValue } from './heatmap/geography'
+import type {
+  Boundaries,
+  Direction,
+  GeographicHover,
+  HeatmapPage,
+  ViewLayer,
+} from './heatmap/types'
+import './heatmap/heatmap.css'
 import './App.css'
 import './analytics/analytics.css'
 
@@ -25,6 +36,16 @@ function BrandMark() {
 }
 
 export default function App() {
+  const [viewLayer, setViewLayer] = useState<ViewLayer>('arcs')
+  const [heatmapLoaded, setHeatmapLoaded] = useState(false)
+  const [heatDirection, setHeatDirection] = useState<Direction>('incoming')
+  const [heatOpacity, setHeatOpacity] = useState(0.48)
+  const [heatHighlight, setHeatHighlight] = useState({ key: '', percent: 0 })
+  const [showUnavailable, setShowUnavailable] = useState(true)
+  const [geographicHover, setGeographicHover] = useState<
+    (GeographicHover & { key: string }) | null
+  >(null)
+  const [heatSelected, setHeatSelected] = useState<string | null>(null)
   const [mode, setMode] = useState<Mode>('global')
   const [datasetId, setDatasetId] = useState('un_stock_2024')
   const [year, setYear] = useState(2024)
@@ -53,7 +74,10 @@ export default function App() {
   const closeAnalytics = useCallback(() => {
     setAnalyticsOpen(false)
     setMobilePanel('insights')
-    window.setTimeout(() => document.getElementById('open-analytics')?.focus(), 0)
+    window.setTimeout(
+      () => document.getElementById('open-analytics')?.focus(),
+      0,
+    )
   }, [])
   const reducedMotion = useMediaQuery('(prefers-reduced-motion: reduce)')
   const mobile = useMediaQuery('(max-width: 760px)')
@@ -80,6 +104,33 @@ export default function App() {
   const corridors = useResource<CorridorPage>(
     dataset ? `/api/v1/corridors?${params}` : null,
     revision,
+  )
+  const heatParams = new URLSearchParams(params)
+  heatParams.delete('limit')
+  heatParams.delete('offset')
+  heatParams.set('direction', heatDirection)
+  const heatKey = heatParams.toString()
+  const heatmap = useResource<HeatmapPage>(
+    dataset && heatmapLoaded ? `/api/v1/heatmap?${heatKey}` : null,
+    revision,
+  )
+  const boundaries = useResource<Boundaries>(
+    heatmap.data?.boundary_asset ?? null,
+    revision,
+  )
+  const highlight = heatHighlight.key === heatKey ? heatHighlight.percent : 0
+  const onGeographicHover = useCallback(
+    (value: GeographicHover | null) => {
+      setGeographicHover(value ? { ...value, key: heatKey } : null)
+    },
+    [heatKey],
+  )
+  const geoHover =
+    viewLayer === 'heatmap' && geographicHover?.key === heatKey && heatmap.data
+      ? geographicHover
+      : null
+  const heatDetail = heatmap.data?.items.find(
+    (row) => row.id === (geoHover?.id ?? heatSelected),
   )
   const page = corridors.data
   const routes = page?.items ?? EMPTY_ROUTES
@@ -144,10 +195,24 @@ export default function App() {
         }
       >
         <GlobeViewport
+          viewLayer={viewLayer}
+          heatmap={
+            heatmap.data && boundaries.data
+              ? {
+                  page: heatmap.data,
+                  boundaries: boundaries.data,
+                  active: viewLayer === 'heatmap',
+                  opacity: heatOpacity,
+                  cutoff: legendValue(highlight, heatmap.data.max_value),
+                  showUnavailable,
+                }
+              : undefined
+          }
+          onGeographicHover={onGeographicHover}
           routes={routes}
           mode={mode}
           selected={selected?.id ?? null}
-          motion={motion && !hovered}
+          motion={motion && !hovered && !geoHover}
           lowPower={lowPower}
           reset={reset}
           onSelect={selectRoute}
@@ -232,6 +297,27 @@ export default function App() {
             onClick={() => setMobilePanel(null)}
           >
             ×
+          </button>
+        </div>
+        <div
+          className="layer-switch"
+          role="group"
+          aria-label="Visualization layer"
+        >
+          <button
+            aria-pressed={viewLayer === 'arcs'}
+            onClick={() => setViewLayer('arcs')}
+          >
+            Arcs
+          </button>
+          <button
+            aria-pressed={viewLayer === 'heatmap'}
+            onClick={() => {
+              setViewLayer('heatmap')
+              setHeatmapLoaded(true)
+            }}
+          >
+            Heatmap
           </button>
         </div>
         <label>
@@ -386,144 +472,195 @@ export default function App() {
         className={`insight-panel glass-panel ${mobilePanel === 'insights' ? 'mobile-open' : ''}`}
         aria-label="Corridor insights"
       >
-        <div className="panel-heading">
-          <h2>{selected ? 'Connection detail' : 'At a glance'}</h2>
-          {selected ? (
+        {viewLayer === 'heatmap' && (
+          <>
+            <div className="panel-heading">
+              <h2>Migration heatmap</h2>
+              <button
+                className="close-mobile"
+                aria-label="Close corridors"
+                onClick={() => setMobilePanel(null)}
+              >
+                ×
+              </button>
+            </div>
+            <HeatmapControls
+              page={heatmap.data}
+              direction={heatDirection}
+              onDirection={setHeatDirection}
+              opacity={heatOpacity}
+              onOpacity={setHeatOpacity}
+              highlight={highlight}
+              onHighlight={(percent) =>
+                setHeatHighlight({ key: heatKey, percent })
+              }
+              showUnavailable={showUnavailable}
+              onShowUnavailable={setShowUnavailable}
+            />
+            {(heatmap.loading || boundaries.loading) && (
+              <p role="status">Loading geographic migration data…</p>
+            )}
+            {(heatmap.error || boundaries.error) && (
+              <div role="alert">
+                <p>{heatmap.error || boundaries.error}</p>
+                <button onClick={() => setRevision(revision + 1)}>
+                  Retry heatmap
+                </button>
+              </div>
+            )}
+            {heatmap.data && (
+              <HeatmapSummary
+                page={heatmap.data}
+                selected={heatDetail}
+                onSelect={setHeatSelected}
+              />
+            )}
+          </>
+        )}
+        <div hidden={viewLayer === 'heatmap'}>
+          <div className="panel-heading">
+            <h2>{selected ? 'Connection detail' : 'At a glance'}</h2>
+            {selected ? (
+              <button
+                className="icon-button"
+                aria-label="Clear selected corridor"
+                onClick={() => setSelectedId(null)}
+              >
+                ×
+              </button>
+            ) : (
+              <span className="panel-kicker">{year}</span>
+            )}
             <button
-              className="icon-button"
-              aria-label="Clear selected corridor"
-              onClick={() => setSelectedId(null)}
+              className="close-mobile"
+              aria-label="Close corridors"
+              onClick={() => setMobilePanel(null)}
             >
               ×
             </button>
-          ) : (
-            <span className="panel-kicker">{year}</span>
-          )}
-          <button
-            className="close-mobile"
-            aria-label="Close corridors"
-            onClick={() => setMobilePanel(null)}
-          >
-            ×
-          </button>
-        </div>
-        {selected && page ? (
-          <div className="route-detail">
-            <p className="eyebrow">ORIGIN → DESTINATION</p>
-            <h3>
-              {selected.origin.name}
-              <span>→</span>
-              {selected.destination.name}
-            </h3>
-            <p className="detail-value">{formatNumber(selected.value)}</p>
-            <p className="detail-unit">
-              {unitLabel(selected.unit)} · {page.measure.label}
-            </p>
-            <dl>
-              <div>
-                <dt>Reporting period</dt>
-                <dd>{page.period.label}</dd>
-              </div>
-              <div>
-                <dt>Source</dt>
-                <dd>{page.dataset.provider}</dd>
-              </div>
-              {selected.moe !== null && (
+          </div>
+          {selected && page ? (
+            <div className="route-detail">
+              <p className="eyebrow">ORIGIN → DESTINATION</p>
+              <h3>
+                {selected.origin.name}
+                <span>→</span>
+                {selected.destination.name}
+              </h3>
+              <p className="detail-value">{formatNumber(selected.value)}</p>
+              <p className="detail-unit">
+                {unitLabel(selected.unit)} · {page.measure.label}
+              </p>
+              <dl>
                 <div>
-                  <dt>Margin of error (90%)</dt>
-                  <dd>± {formatNumber(selected.moe)}</dd>
+                  <dt>Reporting period</dt>
+                  <dd>{page.period.label}</dd>
                 </div>
-              )}
-              <div>
-                <dt>Source row</dt>
-                <dd>{selected.source_row}</dd>
+                <div>
+                  <dt>Source</dt>
+                  <dd>{page.dataset.provider}</dd>
+                </div>
+                {selected.moe !== null && (
+                  <div>
+                    <dt>Margin of error (90%)</dt>
+                    <dd>± {formatNumber(selected.moe)}</dd>
+                  </div>
+                )}
+                <div>
+                  <dt>Source row</dt>
+                  <dd>{selected.source_row}</dd>
+                </div>
+              </dl>
+              <a
+                href={page.dataset.source_url}
+                target="_blank"
+                rel="noreferrer"
+              >
+                View official source ↗
+              </a>
+              <p className="detail-caveat">{page.dataset.caveat}</p>
+            </div>
+          ) : (
+            <>
+              <div className="overview-stat">
+                <strong>{loading ? '—' : routes.length}</strong>
+                <span>corridors on screen</span>
               </div>
-            </dl>
-            <a href={page.dataset.source_url} target="_blank" rel="noreferrer">
-              View official source ↗
-            </a>
-            <p className="detail-caveat">{page.dataset.caveat}</p>
-          </div>
-        ) : (
-          <>
-            <div className="overview-stat">
-              <strong>{loading ? '—' : routes.length}</strong>
-              <span>corridors on screen</span>
-            </div>
-            <p className="overview-caption">
-              {page
-                ? `${formatNumber(page.total)} drawable connections match your filters`
-                : 'Connections grounded in official data'}
-            </p>
-            <div className="panel-divider" />
-            <div className="panel-subheading">
-              <h3>Largest shown</h3>
-              <span>ORIGIN → DESTINATION</span>
-            </div>
-            <div className="route-list">
-              {routes.slice(0, 5).map((route, index) => (
-                <button key={route.id} onClick={() => selectRoute(route.id)}>
-                  <span className="route-rank">
-                    {String(offset + index + 1).padStart(2, '0')}
-                  </span>
-                  <span className="route-name">
-                    {route.origin.name}
-                    <span>→ {route.destination.name}</span>
-                  </span>
-                  <span className="route-count">
-                    {Intl.NumberFormat('en-US', {
-                      notation: 'compact',
-                      maximumFractionDigits: 1,
-                    }).format(route.value)}
-                  </span>
+              <p className="overview-caption">
+                {page
+                  ? `${formatNumber(page.total)} drawable connections match your filters`
+                  : 'Connections grounded in official data'}
+              </p>
+              <div className="panel-divider" />
+              <div className="panel-subheading">
+                <h3>Largest shown</h3>
+                <span>ORIGIN → DESTINATION</span>
+              </div>
+              <div className="route-list">
+                {routes.slice(0, 5).map((route, index) => (
+                  <button key={route.id} onClick={() => selectRoute(route.id)}>
+                    <span className="route-rank">
+                      {String(offset + index + 1).padStart(2, '0')}
+                    </span>
+                    <span className="route-name">
+                      {route.origin.name}
+                      <span>→ {route.destination.name}</span>
+                    </span>
+                    <span className="route-count">
+                      {Intl.NumberFormat('en-US', {
+                        notation: 'compact',
+                        maximumFractionDigits: 1,
+                      }).format(route.value)}
+                    </span>
+                  </button>
+                ))}
+              </div>
+              <div className="pagination">
+                <button
+                  disabled={!page || loading || offset === 0}
+                  aria-label="Previous corridors"
+                  onClick={() => {
+                    setOffset(Math.max(0, offset - limit))
+                    setSelectedId(null)
+                  }}
+                >
+                  ←
                 </button>
-              ))}
+                <span>
+                  {page?.total
+                    ? `${offset + 1}–${Math.min(offset + limit, page.total)} of ${formatNumber(page.total)}`
+                    : 'No corridors'}
+                </span>
+                <button
+                  disabled={!page || loading || offset + limit >= page.total}
+                  aria-label="Next corridors"
+                  onClick={() => {
+                    setOffset(offset + limit)
+                    setSelectedId(null)
+                  }}
+                >
+                  →
+                </button>
+              </div>
+            </>
+          )}
+          {page && (
+            <div className="coverage-note">
+              {page.excluded_without_anchors > 0 && (
+                <p>
+                  {formatNumber(page.excluded_without_anchors)} matching
+                  observations lack a geographic anchor.
+                </p>
+              )}
+              {page.unavailable_in_period > 0 && (
+                <p>
+                  {formatNumber(page.unavailable_in_period)} values unavailable
+                  in this reporting period.
+                </p>
+              )}
             </div>
-            <div className="pagination">
-              <button
-                disabled={!page || loading || offset === 0}
-                aria-label="Previous corridors"
-                onClick={() => {
-                  setOffset(Math.max(0, offset - limit))
-                  setSelectedId(null)
-                }}
-              >
-                ←
-              </button>
-              <span>
-                {page?.total
-                  ? `${offset + 1}–${Math.min(offset + limit, page.total)} of ${formatNumber(page.total)}`
-                  : 'No corridors'}
-              </span>
-              <button
-                disabled={!page || loading || offset + limit >= page.total}
-                aria-label="Next corridors"
-                onClick={() => {
-                  setOffset(offset + limit)
-                  setSelectedId(null)
-                }}
-              >
-                →
-              </button>
-            </div>
-          </>
-        )}
-        {page && (
-          <div className="coverage-note">
-            {page.excluded_without_anchors > 0 && (
-              <p>
-                {formatNumber(page.excluded_without_anchors)} matching
-                observations lack a geographic anchor.
-              </p>
-            )}
-            {page.unavailable_in_period > 0 && (
-              <p>
-                {formatNumber(page.unavailable_in_period)} values unavailable in
-                this reporting period.
-              </p>
-            )}
-          </div>
-        )}
+          )}
+        </div>
         <button
           className="analytics-launch"
           id="open-analytics"
@@ -634,7 +771,7 @@ export default function App() {
           <button onClick={() => setRevision(revision + 1)}>Try again</button>
         </div>
       )}
-      {!loading && !error && page && !routes.length && (
+      {viewLayer === 'arcs' && !loading && !error && page && !routes.length && (
         <div className="message-card glass-panel" role="status">
           <h2>No connections match</h2>
           <p>
@@ -670,11 +807,41 @@ export default function App() {
         </div>
       )}
 
+      {geoHover && heatmap.data && (
+        <div
+          className="route-tooltip geographic-tooltip"
+          role="tooltip"
+          style={{
+            left: Math.max(
+              8,
+              Math.min(geoHover.x + 18, window.innerWidth - 300),
+            ),
+            top: Math.max(
+              8,
+              Math.min(geoHover.y + 12, window.innerHeight - 390),
+            ),
+          }}
+        >
+          <p>{geoHover.name}</p>
+          <GeographicDetail
+            row={heatmap.data.items.find((row) => row.id === geoHover.id)}
+            page={heatmap.data}
+          />
+        </div>
+      )}
+
       <footer className="footer">
         <p>
-          <span className="legend-line" /> Origin → destination{' '}
+          <span className="legend-line" />{' '}
+          {viewLayer === 'heatmap'
+            ? 'Reported geographic magnitude'
+            : 'Origin → destination'}{' '}
           <span className="footer-separator">/</span>{' '}
-          <span>Arcs are relationships, not travel paths.</span>
+          <span>
+            {viewLayer === 'heatmap'
+              ? 'Color is not population density.'
+              : 'Arcs are relationships, not travel paths.'}
+          </span>
         </p>
         <button onClick={() => setAbout(true)}>
           NASA Earth imagery · Sources & notes ↗

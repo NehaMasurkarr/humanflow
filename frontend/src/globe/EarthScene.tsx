@@ -11,11 +11,18 @@ import {
   Color,
   Group,
   InstancedMesh,
+  Mesh,
   Object3D,
   SRGBColorSpace,
   TubeGeometry,
   Vector3,
 } from 'three'
+import HeatmapLayer from '../heatmap/HeatmapLayer'
+import type {
+  GeographicHover,
+  HeatmapLayerState,
+  ViewLayer,
+} from '../heatmap/types'
 import type { Corridor, Mode } from '../lib/types'
 import {
   anchorToVector,
@@ -26,6 +33,9 @@ import {
 import { atmosphereFragment, earthFragment, earthVertex } from './shaders'
 
 export interface SceneProps {
+  viewLayer?: ViewLayer
+  heatmap?: HeatmapLayerState
+  onGeographicHover?: (hover: GeographicHover | null) => void
   routes: Corridor[]
   mode: Mode
   selected: string | null
@@ -92,12 +102,14 @@ function Earth({ onReady, onHover }: Pick<SceneProps, 'onReady' | 'onHover'>) {
 const Route = memo(function Route({
   route,
   maximum,
+  active,
   selected,
   onSelect,
   onHover,
 }: {
   route: Corridor
   maximum: number
+  active: boolean
   selected: boolean
 } & Pick<SceneProps, 'onSelect' | 'onHover'>) {
   const material = useRef<import('three').MeshBasicMaterial>(null)
@@ -131,12 +143,15 @@ const Route = memo(function Route({
   const invalidate = useThree((state) => state.invalidate)
   const opacity = useRef(0)
   useFrame((_, delta) => {
-    opacity.current = Math.min(1, opacity.current + Math.min(delta, 0.05) * 2.3)
+    const target = active ? 1 : 0
+    opacity.current = active
+      ? Math.min(1, opacity.current + Math.min(delta, 0.05) * 2.3)
+      : Math.max(0, opacity.current - Math.min(delta, 0.05) * 2.3)
     if (material.current)
       material.current.opacity = opacity.current * (selected ? 1 : 0.72)
     if (glow.current)
       glow.current.opacity = opacity.current * (selected ? 0.35 : 0.09)
-    if (opacity.current < 1) invalidate()
+    if (opacity.current !== target) invalidate()
   })
   const color = selected ? '#efc779' : '#4bc8ff'
   const hover = (event: ThreeEvent<PointerEvent>) => {
@@ -147,6 +162,7 @@ const Route = memo(function Route({
     <group>
       <mesh
         geometry={geometry}
+        raycast={active ? Mesh.prototype.raycast : () => null}
         onPointerOver={hover}
         onPointerMove={hover}
         onPointerOut={() => onHover(null)}
@@ -178,6 +194,7 @@ const Route = memo(function Route({
       {/* Wider invisible hit geometry makes narrow arcs usable without inflating their visual weight. */}
       <mesh
         geometry={hitGeometry}
+        raycast={active ? Mesh.prototype.raycast : () => null}
         onPointerOver={hover}
         onPointerMove={hover}
         onPointerOut={() => onHover(null)}
@@ -280,17 +297,27 @@ export default function EarthScene(props: SceneProps) {
     <>
       <group ref={world}>
         <Earth onReady={props.onReady} onHover={props.onHover} />
+        {props.heatmap && (
+          <HeatmapLayer
+            state={props.heatmap}
+            lowPower={lowPower}
+            onHover={props.onGeographicHover ?? (() => {})}
+          />
+        )}
         {routes.map((route) => (
           <Route
             key={`${route.id}:${route.year_end}:${route.measure}`}
             route={route}
+            active={props.viewLayer !== 'heatmap'}
             maximum={maximum}
             selected={selected === route.id}
             onSelect={props.onSelect}
             onHover={props.onHover}
           />
         ))}
-        <Particles routes={routes} motion={motion} selected={selected} />
+        <group visible={props.viewLayer !== 'heatmap'}>
+          <Particles routes={routes} motion={motion} selected={selected} />
+        </group>
       </group>
       <CameraControls
         ref={controls}
@@ -316,6 +343,7 @@ export default function EarthScene(props: SceneProps) {
         onStart={() => {
           dragging.current = true
           props.onHover(null)
+          props.onGeographicHover?.(null)
         }}
         onEnd={() => {
           dragging.current = false

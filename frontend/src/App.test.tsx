@@ -1,4 +1,11 @@
-import { act, render, screen, waitFor, within } from '@testing-library/react'
+import {
+  act,
+  fireEvent,
+  render,
+  screen,
+  waitFor,
+  within,
+} from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import App from './App'
@@ -12,8 +19,13 @@ import censusPage from './test/fixtures/us-census.json'
 import irsPage from './test/fixtures/us-irs.json'
 import emptyPage from './test/fixtures/empty.json'
 import analyticsTrends from './test/fixtures/analytics/trends.json'
+import heatIncoming from './test/fixtures/heatmap/global-incoming.json'
+import heatOutgoing from './test/fixtures/heatmap/global-outgoing.json'
+import boundaryRaw from '../public/boundaries/global.geojson?raw'
 
-vi.mock('./analytics/Chart', () => ({ default: () => <div>Analytics chart loaded</div> }))
+vi.mock('./analytics/Chart', () => ({
+  default: () => <div>Analytics chart loaded</div>,
+}))
 
 vi.mock('./globe/GlobeViewport', () => ({
   default: ({
@@ -35,6 +47,11 @@ vi.mock('./globe/GlobeViewport', () => ({
 
 function responseFor(input: string | URL | Request) {
   const url = new URL(String(input), 'http://localhost')
+  if (url.pathname.endsWith('.geojson')) return JSON.parse(boundaryRaw)
+  if (url.pathname.endsWith('/heatmap'))
+    return url.searchParams.get('direction') === 'outgoing'
+      ? heatOutgoing
+      : heatIncoming
   if (url.pathname.endsWith('/analytics/trends')) return analyticsTrends
   if (url.pathname.endsWith('/datasets')) return catalog
   if (url.pathname.endsWith('/geographies'))
@@ -67,16 +84,77 @@ const navigation = () =>
   within(screen.getByRole('navigation', { name: 'Migration mode' }))
 
 describe('HumanFlow interactive exploration', () => {
+  it('reports heatmap API failure and retries without substituting corridor statistics', async () => {
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async (input: string | URL | Request) =>
+        String(input).includes('/heatmap?')
+          ? ({ ok: false, status: 503 } as Response)
+          : fetcher(input),
+      ),
+    )
+    render(<App />)
+    await screen.findByText('corridors on screen')
+    await userEvent.click(screen.getByRole('button', { name: 'Heatmap' }))
+    expect(await screen.findByRole('alert')).toHaveTextContent('HTTP 503')
+    expect(screen.getByText('corridors on screen')).not.toBeVisible()
+    vi.stubGlobal('fetch', fetcher)
+    await userEvent.click(screen.getByRole('button', { name: 'Retry heatmap' }))
+    await screen.findByText(/View geographic values/)
+    expect(screen.queryByRole('alert')).not.toBeInTheDocument()
+  })
+
+  it('switches arcs and geographic heatmap with shared source/year and direction controls', async () => {
+    render(<App />)
+    await screen.findByText('corridors on screen')
+    expect(
+      fetcher.mock.calls.some(([url]) => String(url).includes('/heatmap?')),
+    ).toBe(false)
+    await userEvent.click(screen.getByRole('button', { name: 'Heatmap' }))
+    await screen.findByText(/View geographic values/)
+    expect(
+      screen.getByRole('heading', { name: 'Migration heatmap' }),
+    ).toBeInTheDocument()
+    await userEvent.selectOptions(
+      screen.getByLabelText('Heatmap direction'),
+      'outgoing',
+    )
+    await waitFor(() =>
+      expect(
+        fetcher.mock.calls.some(([url]) =>
+          String(url).includes('direction=outgoing'),
+        ),
+      ).toBe(true),
+    )
+    fireEvent.change(screen.getByLabelText('Heatmap opacity'), {
+      target: { value: '30' },
+    })
+    expect(screen.getByLabelText('Heatmap opacity')).toHaveValue('30')
+    await userEvent.click(screen.getByRole('button', { name: 'Arcs' }))
+    expect(
+      screen.queryByRole('heading', { name: 'Migration heatmap' }),
+    ).not.toBeInTheDocument()
+    expect(screen.getByText('corridors on screen')).toBeVisible()
+  })
+
   it('loads analytics only on demand and restores focus when dismissed', async () => {
     render(<App />)
     await screen.findByText('corridors on screen')
-    expect(fetcher.mock.calls.some(([url]) => String(url).includes('/analytics/'))).toBe(false)
+    expect(
+      fetcher.mock.calls.some(([url]) => String(url).includes('/analytics/')),
+    ).toBe(false)
     const launcher = screen.getByRole('button', { name: 'Analytics' })
     await userEvent.click(launcher)
-    expect(await screen.findByRole('region', { name: 'Migration analytics' })).toBeInTheDocument()
+    expect(
+      await screen.findByRole('region', { name: 'Migration analytics' }),
+    ).toBeInTheDocument()
     await screen.findByText('Analytics chart loaded')
-    await userEvent.click(screen.getByRole('button', { name: 'Close analytics' }))
-    expect(screen.queryByRole('region', { name: 'Migration analytics' })).not.toBeInTheDocument()
+    await userEvent.click(
+      screen.getByRole('button', { name: 'Close analytics' }),
+    )
+    expect(
+      screen.queryByRole('region', { name: 'Migration analytics' }),
+    ).not.toBeInTheDocument()
     await waitFor(() => expect(launcher).toHaveFocus())
   })
 
