@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables
+.env
+.env.*
+
+# Data and model artifacts
+data/raw/*
+data/processed/*
+*.pkl
+*.joblib
+
+# Frontend
+node_modules/
+dist/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
