@@ -5,6 +5,7 @@ from fastapi import FastAPI
 from backend.api.analytics import router as analytics_router
 from backend.api.globe import router as globe_router
 from backend.api.health import router as health_router
+from backend.api.heatmap import router as heatmap_router
 
 
 def create_app() -> FastAPI:
@@ -17,6 +18,7 @@ def create_app() -> FastAPI:
     application.include_router(health_router)
     application.include_router(globe_router)
     application.include_router(analytics_router)
+    application.include_router(heatmap_router)
     return application
 
 

@@ -1,0 +1,18 @@
+{
+  "global": {
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_50m_admin_0_map_units.geojson",
+    "sha256": "b8d421aca6e9e08e8cdf09cc26af111cc3e0deba4fe915611d58ade71e8a4db0",
+    "filename": "countries.geojson",
+    "license": "Public domain",
+    "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "vintage": "Natural Earth v5.1.2 1:50m map units"
+  },
+  "us": {
+    "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/Generalized_ACS2024/State_County/MapServer/9/query?where=1%3D1&outFields=STATE%2CNAME%2CGEOID&outSR=4326&f=geojson&returnGeometry=true",
+    "sha256": "80917ccd3595c2ab751e50831e110276c518ed204dd0293715156293e2edf88c",
+    "filename": "states.geojson",
+    "license": "Public domain",
+    "license_url": "https://www.census.gov/about/policies/citation.html",
+    "vintage": "Census generalized ACS2024 states 1:20m, January 1 2024"
+  }
+}
