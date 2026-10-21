@@ -1,0 +1,2098 @@
+[
+  {
+    "id": "country:004",
+    "latitude": 34.5228,
+    "longitude": 69.1761,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:008",
+    "latitude": 41.3317,
+    "longitude": 19.8172,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:012",
+    "latitude": 36.7397,
+    "longitude": 3.05097,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:016",
+    "latitude": -14.2846,
+    "longitude": -170.691,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:020",
+    "latitude": 42.5075,
+    "longitude": 1.5218,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:024",
+    "latitude": -8.81155,
+    "longitude": 13.242,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:028",
+    "latitude": 17.1175,
+    "longitude": -61.8456,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:031",
+    "latitude": 40.3834,
+    "longitude": 49.8932,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:032",
+    "latitude": -34.6118,
+    "longitude": -58.4173,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:036",
+    "latitude": -35.282,
+    "longitude": 149.129,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:040",
+    "latitude": 48.2201,
+    "longitude": 16.3798,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:044",
+    "latitude": 25.0661,
+    "longitude": -77.339,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:048",
+    "latitude": 26.1921,
+    "longitude": 50.5354,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:050",
+    "latitude": 23.7055,
+    "longitude": 90.4113,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:051",
+    "latitude": 40.1596,
+    "longitude": 44.509,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:052",
+    "latitude": 13.0935,
+    "longitude": -59.6105,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:056",
+    "latitude": 50.8371,
+    "longitude": 4.36761,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:060",
+    "latitude": 32.3293,
+    "longitude": -64.706,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:064",
+    "latitude": 27.5768,
+    "longitude": 89.6177,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:068",
+    "latitude": -13.9908,
+    "longitude": -66.1936,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:070",
+    "latitude": 43.8607,
+    "longitude": 18.4214,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:072",
+    "latitude": -24.6544,
+    "longitude": 25.9201,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:076",
+    "latitude": -15.7801,
+    "longitude": -47.9292,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:084",
+    "latitude": 17.2534,
+    "longitude": -88.7713,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:090",
+    "latitude": -9.42676,
+    "longitude": 159.949,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:092",
+    "latitude": 18.431389,
+    "longitude": -64.623056,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:096",
+    "latitude": 4.94199,
+    "longitude": 114.946,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:100",
+    "latitude": 42.7105,
+    "longitude": 23.3238,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:104",
+    "latitude": 21.914,
+    "longitude": 95.9562,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:108",
+    "latitude": -3.3784,
+    "longitude": 29.3639,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:112",
+    "latitude": 53.9678,
+    "longitude": 27.5766,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:116",
+    "latitude": 11.5556,
+    "longitude": 104.874,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:120",
+    "latitude": 3.8721,
+    "longitude": 11.5174,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:124",
+    "latitude": 45.4215,
+    "longitude": -75.6919,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:132",
+    "latitude": 14.9218,
+    "longitude": -23.5087,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:136",
+    "latitude": 19.3022,
+    "longitude": -81.3857,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:140",
+    "latitude": 5.63056,
+    "longitude": 21.6407,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:144",
+    "latitude": 6.92148,
+    "longitude": 79.8528,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:148",
+    "latitude": 12.1048,
+    "longitude": 15.0445,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:152",
+    "latitude": -33.475,
+    "longitude": -70.6475,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:156",
+    "latitude": 40.0495,
+    "longitude": 116.286,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:170",
+    "latitude": 4.60987,
+    "longitude": -74.082,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:174",
+    "latitude": -11.6986,
+    "longitude": 43.2418,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:178",
+    "latitude": -4.2767,
+    "longitude": 15.2662,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:180",
+    "latitude": -4.325,
+    "longitude": 15.3222,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:188",
+    "latitude": 9.63701,
+    "longitude": -84.0089,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:191",
+    "latitude": 45.8069,
+    "longitude": 15.9614,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:192",
+    "latitude": 23.1333,
+    "longitude": -82.3667,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:196",
+    "latitude": 35.1676,
+    "longitude": 33.3736,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:203",
+    "latitude": 50.0878,
+    "longitude": 14.4205,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:204",
+    "latitude": 6.4779,
+    "longitude": 2.6323,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:208",
+    "latitude": 55.6763,
+    "longitude": 12.5681,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:212",
+    "latitude": 15.2976,
+    "longitude": -61.39,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:214",
+    "latitude": 18.479,
+    "longitude": -69.8908,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:218",
+    "latitude": -0.229498,
+    "longitude": -78.5243,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:222",
+    "latitude": 13.7034,
+    "longitude": -89.2073,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:226",
+    "latitude": 3.7523,
+    "longitude": 8.7741,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:231",
+    "latitude": 9.02274,
+    "longitude": 38.7468,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:232",
+    "latitude": 15.3315,
+    "longitude": 38.9183,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:233",
+    "latitude": 59.4392,
+    "longitude": 24.7586,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:234",
+    "latitude": 61.8926,
+    "longitude": -6.91181,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:242",
+    "latitude": -18.1149,
+    "longitude": 178.399,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:246",
+    "latitude": 60.1608,
+    "longitude": 24.9525,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:250",
+    "latitude": 48.8566,
+    "longitude": 2.35097,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:258",
+    "latitude": -17.535,
+    "longitude": -149.57,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:262",
+    "latitude": 11.5806,
+    "longitude": 43.1425,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:266",
+    "latitude": 0.38832,
+    "longitude": 9.45162,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:268",
+    "latitude": 41.71,
+    "longitude": 44.793,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:270",
+    "latitude": 13.4495,
+    "longitude": -16.5885,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:276",
+    "latitude": 52.5235,
+    "longitude": 13.4115,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:288",
+    "latitude": 5.57045,
+    "longitude": -0.20795,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:296",
+    "latitude": 1.32905,
+    "longitude": 172.979,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:300",
+    "latitude": 37.9792,
+    "longitude": 23.7166,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:304",
+    "latitude": 64.1836,
+    "longitude": -51.7214,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:308",
+    "latitude": 12.0653,
+    "longitude": -61.7449,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:316",
+    "latitude": 13.4443,
+    "longitude": 144.794,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:320",
+    "latitude": 14.6248,
+    "longitude": -90.5328,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:324",
+    "latitude": 9.51667,
+    "longitude": -13.7,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:328",
+    "latitude": 6.80461,
+    "longitude": -58.1548,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:332",
+    "latitude": 18.5392,
+    "longitude": -72.3288,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:340",
+    "latitude": 15.1333,
+    "longitude": -87.4667,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:344",
+    "latitude": 22.3964,
+    "longitude": 114.109,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:348",
+    "latitude": 47.4984,
+    "longitude": 19.0408,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:352",
+    "latitude": 64.1353,
+    "longitude": -21.8952,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:356",
+    "latitude": 28.6353,
+    "longitude": 77.225,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:360",
+    "latitude": -6.19752,
+    "longitude": 106.83,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:364",
+    "latitude": 35.6878,
+    "longitude": 51.4447,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:368",
+    "latitude": 33.3302,
+    "longitude": 44.394,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:372",
+    "latitude": 53.3441,
+    "longitude": -6.26749,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:376",
+    "latitude": 31.7717,
+    "longitude": 35.2035,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:380",
+    "latitude": 41.8955,
+    "longitude": 12.4823,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:384",
+    "latitude": 5.332,
+    "longitude": -4.0305,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:388",
+    "latitude": 17.9927,
+    "longitude": -76.792,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:392",
+    "latitude": 35.67,
+    "longitude": 139.77,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:398",
+    "latitude": 51.1879,
+    "longitude": 71.4382,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:400",
+    "latitude": 31.9497,
+    "longitude": 35.9263,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:404",
+    "latitude": -1.27975,
+    "longitude": 36.8126,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:408",
+    "latitude": 39.0319,
+    "longitude": 125.754,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:410",
+    "latitude": 37.5323,
+    "longitude": 126.957,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:414",
+    "latitude": 29.3721,
+    "longitude": 47.9824,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:417",
+    "latitude": 42.8851,
+    "longitude": 74.6057,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:418",
+    "latitude": 18.5826,
+    "longitude": 102.177,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:422",
+    "latitude": 33.8872,
+    "longitude": 35.5134,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:426",
+    "latitude": -29.5208,
+    "longitude": 27.7167,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:428",
+    "latitude": 56.9465,
+    "longitude": 24.1048,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:430",
+    "latitude": 6.30039,
+    "longitude": -10.7957,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:434",
+    "latitude": 32.8578,
+    "longitude": 13.1072,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:438",
+    "latitude": 47.1411,
+    "longitude": 9.52148,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:440",
+    "latitude": 54.6896,
+    "longitude": 25.2799,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:442",
+    "latitude": 49.61,
+    "longitude": 6.1296,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:446",
+    "latitude": 22.1667,
+    "longitude": 113.55,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:450",
+    "latitude": -20.4667,
+    "longitude": 45.7167,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:454",
+    "latitude": -13.9899,
+    "longitude": 33.7703,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:458",
+    "latitude": 3.12433,
+    "longitude": 101.684,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:462",
+    "latitude": 4.1742,
+    "longitude": 73.5109,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:466",
+    "latitude": 13.5667,
+    "longitude": -7.50034,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:470",
+    "latitude": 35.9042,
+    "longitude": 14.5189,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:478",
+    "latitude": 18.2367,
+    "longitude": -15.9824,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:480",
+    "latitude": -20.1605,
+    "longitude": 57.4977,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:484",
+    "latitude": 19.427,
+    "longitude": -99.1276,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:492",
+    "latitude": 43.7325,
+    "longitude": 7.41891,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:496",
+    "latitude": 47.9129,
+    "longitude": 106.937,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:498",
+    "latitude": 47.0167,
+    "longitude": 28.8497,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:499",
+    "latitude": 42.4602,
+    "longitude": 19.2595,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:504",
+    "latitude": 33.9905,
+    "longitude": -6.8704,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:508",
+    "latitude": -25.9664,
+    "longitude": 32.5713,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:512",
+    "latitude": 23.6105,
+    "longitude": 58.5874,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:516",
+    "latitude": -22.5648,
+    "longitude": 17.0931,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:520",
+    "latitude": -0.5477,
+    "longitude": 166.920867,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:524",
+    "latitude": 27.6939,
+    "longitude": 85.3157,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:528",
+    "latitude": 52.3738,
+    "longitude": 4.89095,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:533",
+    "latitude": 12.5167,
+    "longitude": -70.0167,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:540",
+    "latitude": -22.2677,
+    "longitude": 166.464,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:548",
+    "latitude": -17.7404,
+    "longitude": 168.321,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:554",
+    "latitude": -41.2865,
+    "longitude": 174.776,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:558",
+    "latitude": 12.1475,
+    "longitude": -86.2734,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:562",
+    "latitude": 13.514,
+    "longitude": 2.1073,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:566",
+    "latitude": 9.05804,
+    "longitude": 7.48906,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:578",
+    "latitude": 59.9138,
+    "longitude": 10.7387,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:580",
+    "latitude": 15.1935,
+    "longitude": 145.765,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:583",
+    "latitude": 6.91771,
+    "longitude": 158.185,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:584",
+    "latitude": 7.11046,
+    "longitude": 171.135,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:585",
+    "latitude": 7.34194,
+    "longitude": 134.479,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:586",
+    "latitude": 30.5167,
+    "longitude": 72.8,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:591",
+    "latitude": 8.99427,
+    "longitude": -79.5188,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:598",
+    "latitude": -9.47357,
+    "longitude": 147.194,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:600",
+    "latitude": -25.3005,
+    "longitude": -57.6362,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:604",
+    "latitude": -12.0931,
+    "longitude": -77.0465,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:608",
+    "latitude": 14.5515,
+    "longitude": 121.035,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:616",
+    "latitude": 52.26,
+    "longitude": 21.02,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:620",
+    "latitude": 38.7072,
+    "longitude": -9.13552,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:624",
+    "latitude": 11.8037,
+    "longitude": -15.1804,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:626",
+    "latitude": -8.56667,
+    "longitude": 125.567,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:630",
+    "latitude": 18.23,
+    "longitude": -66.0,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:634",
+    "latitude": 25.2948,
+    "longitude": 51.5082,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:642",
+    "latitude": 44.4479,
+    "longitude": 26.0979,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:643",
+    "latitude": 55.7558,
+    "longitude": 37.6176,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:646",
+    "latitude": -1.95325,
+    "longitude": 30.0587,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:659",
+    "latitude": 17.3,
+    "longitude": -62.7309,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:662",
+    "latitude": 14.0,
+    "longitude": -60.9832,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:670",
+    "latitude": 13.2035,
+    "longitude": -61.2653,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:674",
+    "latitude": 43.9322,
+    "longitude": 12.4486,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:678",
+    "latitude": 0.20618,
+    "longitude": 6.6071,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:682",
+    "latitude": 24.6748,
+    "longitude": 46.6977,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:686",
+    "latitude": 14.7247,
+    "longitude": -17.4734,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:688",
+    "latitude": 44.8024,
+    "longitude": 20.4656,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:690",
+    "latitude": -4.6309,
+    "longitude": 55.4466,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:694",
+    "latitude": 8.4821,
+    "longitude": -13.2134,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:702",
+    "latitude": 1.28941,
+    "longitude": 103.85,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:703",
+    "latitude": 48.1484,
+    "longitude": 17.1073,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:704",
+    "latitude": 21.0069,
+    "longitude": 105.825,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:705",
+    "latitude": 46.0546,
+    "longitude": 14.5044,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:706",
+    "latitude": 2.07515,
+    "longitude": 45.3254,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:710",
+    "latitude": -25.746,
+    "longitude": 28.1871,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:716",
+    "latitude": -17.8312,
+    "longitude": 31.0672,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:724",
+    "latitude": 40.4167,
+    "longitude": -3.70327,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:728",
+    "latitude": 4.85,
+    "longitude": 31.6,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:729",
+    "latitude": 15.5932,
+    "longitude": 32.5363,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:740",
+    "latitude": 5.8232,
+    "longitude": -55.1679,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:748",
+    "latitude": -26.5225,
+    "longitude": 31.4659,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:752",
+    "latitude": 59.3327,
+    "longitude": 18.0645,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:756",
+    "latitude": 46.948,
+    "longitude": 7.44821,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:760",
+    "latitude": 33.5146,
+    "longitude": 36.3119,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:762",
+    "latitude": 38.5878,
+    "longitude": 68.7864,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:764",
+    "latitude": 13.7308,
+    "longitude": 100.521,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:768",
+    "latitude": 6.1228,
+    "longitude": 1.2255,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:776",
+    "latitude": -21.136,
+    "longitude": -175.216,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:780",
+    "latitude": 10.6596,
+    "longitude": -61.4789,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:784",
+    "latitude": 24.4764,
+    "longitude": 54.3705,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:788",
+    "latitude": 36.7899,
+    "longitude": 10.21,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:792",
+    "latitude": 39.7153,
+    "longitude": 32.3606,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:795",
+    "latitude": 37.9509,
+    "longitude": 58.3794,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:796",
+    "latitude": 21.4602778,
+    "longitude": -71.141389,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:798",
+    "latitude": -8.6314877,
+    "longitude": 179.089567,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:800",
+    "latitude": 0.314269,
+    "longitude": 32.5729,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:804",
+    "latitude": 50.4536,
+    "longitude": 30.5038,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:807",
+    "latitude": 42.0024,
+    "longitude": 21.4361,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:818",
+    "latitude": 30.0982,
+    "longitude": 31.2461,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:826",
+    "latitude": 51.5002,
+    "longitude": -0.126236,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:833",
+    "latitude": 54.1509,
+    "longitude": -4.47928,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:834",
+    "latitude": -6.17486,
+    "longitude": 35.7382,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:840",
+    "latitude": 38.8895,
+    "longitude": -77.032,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:850",
+    "latitude": 18.3358,
+    "longitude": -64.8963,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:854",
+    "latitude": 12.3605,
+    "longitude": -1.53395,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:858",
+    "latitude": -34.8941,
+    "longitude": -56.0675,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:860",
+    "latitude": 41.3052,
+    "longitude": 69.269,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:862",
+    "latitude": 9.08165,
+    "longitude": -69.8371,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:882",
+    "latitude": -13.8314,
+    "longitude": -171.752,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:887",
+    "latitude": 15.352,
+    "longitude": 44.2075,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:894",
+    "latitude": -15.3982,
+    "longitude": 28.2937,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "country:WB:XKX",
+    "latitude": 42.565,
+    "longitude": 20.926,
+    "method": "World Bank country metadata capital-city point",
+    "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "source_sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  },
+  {
+    "id": "state:01",
+    "latitude": 32.739579,
+    "longitude": -86.843447,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:02",
+    "latitude": 63.347356,
+    "longitude": -152.839733,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:04",
+    "latitude": 34.203936,
+    "longitude": -111.606345,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:05",
+    "latitude": 34.895526,
+    "longitude": -92.444626,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:06",
+    "latitude": 37.155177,
+    "longitude": -119.543418,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:08",
+    "latitude": 38.993767,
+    "longitude": -105.508712,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:09",
+    "latitude": 41.579864,
+    "longitude": -72.746657,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:10",
+    "latitude": 38.998566,
+    "longitude": -75.441644,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:11",
+    "latitude": 38.904247,
+    "longitude": -77.016517,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:12",
+    "latitude": 28.398978,
+    "longitude": -82.5143,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:13",
+    "latitude": 32.629579,
+    "longitude": -83.423511,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:15",
+    "latitude": 19.828167,
+    "longitude": -155.495042,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:16",
+    "latitude": 44.348422,
+    "longitude": -114.558854,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:17",
+    "latitude": 40.102875,
+    "longitude": -89.152611,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:18",
+    "latitude": 39.901314,
+    "longitude": -86.291913,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:19",
+    "latitude": 42.070024,
+    "longitude": -93.493347,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:20",
+    "latitude": 38.498546,
+    "longitude": -98.38343,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:21",
+    "latitude": 37.533684,
+    "longitude": -85.29298,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:22",
+    "latitude": 30.708319,
+    "longitude": -91.604621,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:23",
+    "latitude": 45.409284,
+    "longitude": -68.666616,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:24",
+    "latitude": 38.946658,
+    "longitude": -76.674494,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:25",
+    "latitude": 42.15652,
+    "longitude": -71.489592,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:26",
+    "latitude": 44.844177,
+    "longitude": -85.660491,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:27",
+    "latitude": 46.315957,
+    "longitude": -94.199604,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:28",
+    "latitude": 32.686471,
+    "longitude": -89.656138,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:29",
+    "latitude": 38.35075,
+    "longitude": -92.456783,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:30",
+    "latitude": 47.051177,
+    "longitude": -109.634817,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:31",
+    "latitude": 41.543305,
+    "longitude": -99.811865,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:32",
+    "latitude": 39.331093,
+    "longitude": -116.615147,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:33",
+    "latitude": 43.672794,
+    "longitude": -71.584189,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:34",
+    "latitude": 40.107274,
+    "longitude": -74.665201,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:35",
+    "latitude": 34.434684,
+    "longitude": -106.131618,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:36",
+    "latitude": 42.913397,
+    "longitude": -75.596272,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:37",
+    "latitude": 35.53971,
+    "longitude": -79.130864,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:38",
+    "latitude": 47.442174,
+    "longitude": -100.460826,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:39",
+    "latitude": 40.41493,
+    "longitude": -82.711997,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:40",
+    "latitude": 35.590081,
+    "longitude": -97.486779,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:41",
+    "latitude": 43.971712,
+    "longitude": -120.622958,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:42",
+    "latitude": 40.904604,
+    "longitude": -77.827523,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:44",
+    "latitude": 41.596485,
+    "longitude": -71.52649,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:45",
+    "latitude": 33.874178,
+    "longitude": -80.854264,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:46",
+    "latitude": 44.446796,
+    "longitude": -100.238176,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:47",
+    "latitude": 35.85846,
+    "longitude": -86.349634,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:48",
+    "latitude": 31.434703,
+    "longitude": -99.281824,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:49",
+    "latitude": 39.334993,
+    "longitude": -111.656333,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:50",
+    "latitude": 44.058954,
+    "longitude": -72.671017,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:51",
+    "latitude": 37.522251,
+    "longitude": -78.668194,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:53",
+    "latitude": 47.407324,
+    "longitude": -120.5758,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:54",
+    "latitude": 38.647285,
+    "longitude": -80.618327,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:55",
+    "latitude": 44.630907,
+    "longitude": -89.709392,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  },
+  {
+    "id": "state:56",
+    "latitude": 42.989659,
+    "longitude": -107.544392,
+    "method": "US Census 2024 Gazetteer state internal point",
+    "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_state_national.zip",
+    "source_sha256": "608678c4b1aee5bd7577d7ee8754763af5b9c662d44cef23f30fead56d9284ae"
+  }
+]

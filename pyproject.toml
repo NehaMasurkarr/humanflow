@@ -11,6 +11,7 @@ requires-python = ">=3.12"
 dependencies = [
   "fastapi==0.156.4",
   "uvicorn[standard]==0.54.0",
+  "psycopg[binary]==3.3.6",
 ]
 
 [project.scripts]
@@ -21,7 +22,6 @@ data = [
   "pandas==3.0.6",
   "openpyxl==3.1.5",
   "pycountry==26.2.16",
-  "psycopg[binary]==3.3.6",
 ]
 dev = [
   "httpx==0.28.1",
@@ -33,6 +33,7 @@ dev = [
 include = ["backend*", "pipelines*", "analytics*"]
 
 [tool.setuptools.package-data]
+backend = ["assets/*.json"]
 pipelines = ["sql/*.sql"]
 analytics = ["sql/*.sql"]
 

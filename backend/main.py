@@ -2,6 +2,7 @@
 
 from fastapi import FastAPI
 
+from backend.api.globe import router as globe_router
 from backend.api.health import router as health_router
 
 
@@ -13,6 +14,7 @@ def create_app() -> FastAPI:
         version="0.1.0",
     )
     application.include_router(health_router)
+    application.include_router(globe_router)
     return application
 
 

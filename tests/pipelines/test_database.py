@@ -37,7 +37,7 @@ def test_migration_and_load_are_idempotent(connection, official_bundle):
             connection.execute(f"SELECT count(*) FROM humanflow.{table}").fetchone()[0]
             == (first["counts"][name])
         )
-    assert connection.execute("SELECT count(*) FROM humanflow.schema_migrations").fetchone()[0] == 1
+    assert connection.execute("SELECT count(*) FROM humanflow.schema_migrations").fetchone()[0] == 2
 
 
 def test_failed_load_rolls_back_all_changes(connection, official_bundle, monkeypatch):

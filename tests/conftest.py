@@ -8,7 +8,7 @@ import pytest
 from pipelines.build import build, transform
 from pipelines.sources import raw_path, read_json, write_json
 
-FIXTURES = Path(__file__).parents[1] / "fixtures/official"
+FIXTURES = Path(__file__).parent / "fixtures/official"
 
 
 @pytest.fixture(scope="session")
